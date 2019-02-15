@@ -8,11 +8,11 @@ Sheet 1 1
 Title "Fat Bastard"
 Date "2019-02-15"
 Rev "1"
-Comp "A-wai Amplification"
-Comment1 "Main PCB"
-Comment2 "Bass Preamp"
-Comment3 ""
-Comment4 ""
+Comp "Arnaud Ferraris (A-wai Amplification)"
+Comment1 "Licensed under CERN OHL v.1.2"
+Comment2 ""
+Comment3 "Main PCB"
+Comment4 "Bass Preamp"
 $EndDescr
 $Comp
 L Connector:AudioJack2_Switch J1

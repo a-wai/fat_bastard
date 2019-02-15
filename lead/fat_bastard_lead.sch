@@ -8,11 +8,11 @@ Sheet 1 1
 Title "Fat Bastard"
 Date "2019-02-15"
 Rev "2"
-Comp "A-wai Amplification"
-Comment1 "Lead Channel"
-Comment2 "Bass Preamp"
-Comment3 ""
-Comment4 ""
+Comp "Arnaud Ferraris (A-wai Amplification)"
+Comment1 "Licensed under CERN OHL v.1.2"
+Comment2 ""
+Comment3 "Lead Channel"
+Comment4 "Bass Preamp"
 $EndDescr
 $Comp
 L Valve:ECC83 U1
