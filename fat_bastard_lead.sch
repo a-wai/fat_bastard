@@ -1,899 +1,927 @@
 EESchema Schematic File Version 4
-LIBS:Fat Bastard-cache
+LIBS:fat_bastard_lead-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Fat Bastard"
+Date "2019-02-15"
+Rev "2"
+Comp "A-wai Amplification"
+Comment1 "Lead Channel"
+Comment2 "Bass Preamp"
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
 L Valve:ECC83 U1
-U 2 1 5C641032
-P 3950 3575
-AR Path="/5C641032" Ref="U1"  Part="2" 
-AR Path="/5C6397B0/5C641032" Ref="U?"  Part="2" 
-F 0 "U1" H 4175 3375 50  0000 L CNN
-F 1 "ECC83" H 4175 3275 50  0000 L CNN
-F 2 "Valve:Valve_Noval_P" H 4220 3175 50  0001 C CNN
-F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 3950 3575 50  0001 C CNN
-	2    3950 3575
+U 2 1 5C63A589
+P 3975 4675
+AR Path="/5C63A589" Ref="U1"  Part="2" 
+AR Path="/5C6397B0/5C63A589" Ref="U?"  Part="2" 
+F 0 "U1" H 4200 4475 50  0000 L CNN
+F 1 "ECC83" H 4200 4375 50  0000 L CNN
+F 2 "Valve:Valve_ECC-83-2" H 4245 4275 50  0001 C CNN
+F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 3975 4675 50  0001 C CNN
+	2    3975 4675
 	1    0    0    -1  
 $EndComp
 $Comp
 L Valve:ECC83 U2
-U 2 1 5C641039
-P 6625 3575
-AR Path="/5C641039" Ref="U2"  Part="2" 
-AR Path="/5C6397B0/5C641039" Ref="U?"  Part="2" 
-F 0 "U2" H 6853 3622 50  0000 L CNN
-F 1 "ECC83" H 6853 3529 50  0000 L CNN
-F 2 "Valve:Valve_Noval_P" H 6895 3175 50  0001 C CNN
-F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 6625 3575 50  0001 C CNN
-	2    6625 3575
+U 2 1 5C63A590
+P 6650 4675
+AR Path="/5C63A590" Ref="U2"  Part="2" 
+AR Path="/5C6397B0/5C63A590" Ref="U?"  Part="2" 
+F 0 "U2" H 6878 4722 50  0000 L CNN
+F 1 "ECC83" H 6878 4629 50  0000 L CNN
+F 2 "Valve:Valve_ECC-83-2" H 6920 4275 50  0001 C CNN
+F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 6650 4675 50  0001 C CNN
+	2    6650 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Valve:ECC83 U1
+U 1 1 5C63A597
+P 5475 4675
+AR Path="/5C63A597" Ref="U1"  Part="1" 
+AR Path="/5C6397B0/5C63A597" Ref="U?"  Part="1" 
+F 0 "U1" H 5703 4722 50  0000 L CNN
+F 1 "ECC83" H 5703 4629 50  0000 L CNN
+F 2 "Valve:Valve_ECC-83-2" H 5745 4275 50  0001 C CNN
+F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 5475 4675 50  0001 C CNN
+	1    5475 4675
 	1    0    0    -1  
 $EndComp
 $Comp
 L Valve:ECC83 U2
-U 1 1 5C641047
-P 7925 3575
-AR Path="/5C641047" Ref="U2"  Part="1" 
-AR Path="/5C6397B0/5C641047" Ref="U?"  Part="1" 
-F 0 "U2" H 8153 3622 50  0000 L CNN
-F 1 "ECC83" H 8153 3529 50  0000 L CNN
-F 2 "Valve:Valve_Noval_P" H 8195 3175 50  0001 C CNN
-F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 7925 3575 50  0001 C CNN
-	1    7925 3575
+U 1 1 5C63A59E
+P 7950 4675
+AR Path="/5C63A59E" Ref="U2"  Part="1" 
+AR Path="/5C6397B0/5C63A59E" Ref="U?"  Part="1" 
+F 0 "U2" H 8178 4722 50  0000 L CNN
+F 1 "ECC83" H 8178 4629 50  0000 L CNN
+F 2 "Valve:Valve_ECC-83-2" H 8220 4275 50  0001 C CNN
+F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 7950 4675 50  0001 C CNN
+	1    7950 4675
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
-U 1 1 5C64104E
-P 4300 3125
-AR Path="/5C64104E" Ref="C4"  Part="1" 
-AR Path="/5C6397B0/5C64104E" Ref="C?"  Part="1" 
-F 0 "C4" V 4150 3125 50  0000 C CNN
-F 1 "500p" V 4450 3125 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 4338 2975 50  0001 C CNN
-F 3 "~" H 4300 3125 50  0001 C CNN
-	1    4300 3125
+L Device:C C2
+U 1 1 5C63A5BA
+P 4325 4225
+AR Path="/5C63A5BA" Ref="C2"  Part="1" 
+AR Path="/5C6397B0/5C63A5BA" Ref="C?"  Part="1" 
+F 0 "C2" V 4175 4225 50  0000 C CNN
+F 1 "500p" V 4475 4225 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L10.0mm_W5.0mm_P5.00mm_P7.50mm" H 4363 4075 50  0001 C CNN
+F 3 "~" H 4325 4225 50  0001 C CNN
+	1    4325 4225
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
-U 1 1 5C641055
-P 2625 6625
-AR Path="/5C641055" Ref="R2"  Part="1" 
-AR Path="/5C6397B0/5C641055" Ref="R?"  Part="1" 
-F 0 "R2" V 2415 6625 50  0000 C CNN
-F 1 "1k" V 2508 6625 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2555 6625 50  0001 C CNN
-F 3 "~" H 2625 6625 50  0001 C CNN
-	1    2625 6625
+L Device:R R16
+U 1 1 5C63A5C1
+P 9525 1525
+AR Path="/5C63A5C1" Ref="R16"  Part="1" 
+AR Path="/5C6397B0/5C63A5C1" Ref="R?"  Part="1" 
+F 0 "R16" V 9315 1525 50  0000 C CNN
+F 1 "1k" V 9408 1525 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9455 1525 50  0001 C CNN
+F 3 "~" H 9525 1525 50  0001 C CNN
+	1    9525 1525
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 5C64105C
-P 3950 2925
-AR Path="/5C64105C" Ref="R5"  Part="1" 
-AR Path="/5C6397B0/5C64105C" Ref="R?"  Part="1" 
-F 0 "R5" H 4020 2972 50  0000 L CNN
-F 1 "220k" H 4020 2879 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3880 2925 50  0001 C CNN
-F 3 "~" H 3950 2925 50  0001 C CNN
-	1    3950 2925
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R3
-U 1 1 5C641063
-P 3450 3575
-AR Path="/5C641063" Ref="R3"  Part="1" 
-AR Path="/5C6397B0/5C641063" Ref="R?"  Part="1" 
-F 0 "R3" V 3240 3575 50  0000 C CNN
-F 1 "68k" V 3333 3575 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3380 3575 50  0001 C CNN
-F 3 "~" H 3450 3575 50  0001 C CNN
-	1    3450 3575
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5C64106A
-P 3850 4175
-AR Path="/5C64106A" Ref="R4"  Part="1" 
-AR Path="/5C6397B0/5C64106A" Ref="R?"  Part="1" 
-F 0 "R4" H 3675 4225 50  0000 L CNN
-F 1 "1.8k" H 3625 4125 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3780 4175 50  0001 C CNN
-F 3 "~" H 3850 4175 50  0001 C CNN
-	1    3850 4175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5C641071
-P 4050 4175
-AR Path="/5C641071" Ref="C3"  Part="1" 
-AR Path="/5C6397B0/5C641071" Ref="C?"  Part="1" 
-F 0 "C3" H 3935 4128 50  0000 R CNN
-F 1 "1µ" H 3935 4221 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 4088 4025 50  0001 C CNN
-F 3 "~" H 4050 4175 50  0001 C CNN
-	1    4050 4175
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 5C641078
-P 5450 2925
-AR Path="/5C641078" Ref="R8"  Part="1" 
-AR Path="/5C6397B0/5C641078" Ref="R?"  Part="1" 
-F 0 "R8" H 5520 2972 50  0000 L CNN
-F 1 "100k" H 5520 2879 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5380 2925 50  0001 C CNN
-F 3 "~" H 5450 2925 50  0001 C CNN
-	1    5450 2925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 5C64107F
-P 5800 3125
-AR Path="/5C64107F" Ref="C6"  Part="1" 
-AR Path="/5C6397B0/5C64107F" Ref="C?"  Part="1" 
-F 0 "C6" V 5650 3125 50  0000 C CNN
-F 1 "22n" V 5950 3125 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 5838 2975 50  0001 C CNN
-F 3 "~" H 5800 3125 50  0001 C CNN
-	1    5800 3125
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 5C641086
-P 6100 3325
-AR Path="/5C641086" Ref="R9"  Part="1" 
-AR Path="/5C6397B0/5C641086" Ref="R?"  Part="1" 
-F 0 "R9" H 6170 3372 50  0000 L CNN
-F 1 "470k" H 6170 3279 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6030 3325 50  0001 C CNN
-F 3 "~" H 6100 3325 50  0001 C CNN
-	1    6100 3325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R10
-U 1 1 5C64108D
-P 6100 3775
-AR Path="/5C64108D" Ref="R10"  Part="1" 
-AR Path="/5C6397B0/5C64108D" Ref="R?"  Part="1" 
-F 0 "R10" H 6170 3822 50  0000 L CNN
-F 1 "1M" H 6170 3729 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6030 3775 50  0001 C CNN
-F 3 "~" H 6100 3775 50  0001 C CNN
-	1    6100 3775
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R11
-U 1 1 5C641094
-P 6525 4175
-AR Path="/5C641094" Ref="R11"  Part="1" 
-AR Path="/5C6397B0/5C641094" Ref="R?"  Part="1" 
-F 0 "R11" H 6595 4222 50  0000 L CNN
-F 1 "27k" H 6595 4129 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6455 4175 50  0001 C CNN
-F 3 "~" H 6525 4175 50  0001 C CNN
-	1    6525 4175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 5C64109B
-P 5350 4175
-AR Path="/5C64109B" Ref="R7"  Part="1" 
-AR Path="/5C6397B0/5C64109B" Ref="R?"  Part="1" 
-F 0 "R7" H 5175 4225 50  0000 L CNN
-F 1 "1.8k" H 5125 4125 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5280 4175 50  0001 C CNN
-F 3 "~" H 5350 4175 50  0001 C CNN
-	1    5350 4175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R13
-U 1 1 5C6410A2
-P 7225 3775
-AR Path="/5C6410A2" Ref="R13"  Part="1" 
-AR Path="/5C6397B0/5C6410A2" Ref="R?"  Part="1" 
-F 0 "R13" H 7295 3822 50  0000 L CNN
-F 1 "330k" H 7295 3729 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7155 3775 50  0001 C CNN
-F 3 "~" H 7225 3775 50  0001 C CNN
-	1    7225 3775
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R14
-U 1 1 5C6410A9
-P 7425 3575
-AR Path="/5C6410A9" Ref="R14"  Part="1" 
-AR Path="/5C6397B0/5C6410A9" Ref="R?"  Part="1" 
-F 0 "R14" V 7215 3575 50  0000 C CNN
-F 1 "220k" V 7308 3575 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7355 3575 50  0001 C CNN
-F 3 "~" H 7425 3575 50  0001 C CNN
-	1    7425 3575
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R12
-U 1 1 5C6410B0
-P 6625 2925
-AR Path="/5C6410B0" Ref="R12"  Part="1" 
-AR Path="/5C6397B0/5C6410B0" Ref="R?"  Part="1" 
-F 0 "R12" H 6695 2972 50  0000 L CNN
-F 1 "100k" H 6695 2879 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6555 2925 50  0001 C CNN
-F 3 "~" H 6625 2925 50  0001 C CNN
-	1    6625 2925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C8
-U 1 1 5C6410B7
-P 6975 3125
-AR Path="/5C6410B7" Ref="C8"  Part="1" 
-AR Path="/5C6397B0/5C6410B7" Ref="C?"  Part="1" 
-F 0 "C8" V 6825 3125 50  0000 C CNN
-F 1 "22n" V 7125 3125 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 7013 2975 50  0001 C CNN
-F 3 "~" H 6975 3125 50  0001 C CNN
-	1    6975 3125
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C7
-U 1 1 5C6410BE
-P 6425 2925
-AR Path="/5C6410BE" Ref="C7"  Part="1" 
-AR Path="/5C6397B0/5C6410BE" Ref="C?"  Part="1" 
-F 0 "C7" H 6225 2975 50  0000 L CNN
-F 1 "1n" H 6225 2875 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 6463 2775 50  0001 C CNN
-F 3 "~" H 6425 2925 50  0001 C CNN
-	1    6425 2925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R15
-U 1 1 5C6410C5
-P 7825 4175
-AR Path="/5C6410C5" Ref="R15"  Part="1" 
-AR Path="/5C6397B0/5C6410C5" Ref="R?"  Part="1" 
-F 0 "R15" H 7650 4225 50  0000 L CNN
-F 1 "1.8k" H 7600 4125 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7755 4175 50  0001 C CNN
-F 3 "~" H 7825 4175 50  0001 C CNN
-	1    7825 4175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C9
-U 1 1 5C6410CC
-P 8025 4175
-AR Path="/5C6410CC" Ref="C9"  Part="1" 
-AR Path="/5C6397B0/5C6410CC" Ref="C?"  Part="1" 
-F 0 "C9" H 7910 4128 50  0000 R CNN
-F 1 "1µ" H 7910 4221 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 8063 4025 50  0001 C CNN
-F 3 "~" H 8025 4175 50  0001 C CNN
-	1    8025 4175
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5450 3075 5450 3125
-Wire Wire Line
-	5650 3125 5450 3125
-Connection ~ 5450 3125
-Wire Wire Line
-	5450 3125 5450 3175
-Wire Wire Line
-	5950 3125 6100 3125
-Wire Wire Line
-	6100 3125 6100 3175
-Wire Wire Line
-	6100 3475 6100 3575
-Wire Wire Line
-	6325 3575 6100 3575
-Connection ~ 6100 3575
-Wire Wire Line
-	6100 3575 6100 3625
-Wire Wire Line
-	6100 3925 6100 4325
-Wire Wire Line
-	5350 4325 5550 4325
-Wire Wire Line
-	6100 4325 5550 4325
-Connection ~ 5550 4325
-$Comp
-L Device:C C5
-U 1 1 5C6410E1
-P 5550 4175
-AR Path="/5C6410E1" Ref="C5"  Part="1" 
-AR Path="/5C6397B0/5C6410E1" Ref="C?"  Part="1" 
-F 0 "C5" H 5435 4128 50  0000 R CNN
-F 1 "1µ" H 5435 4221 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5588 4025 50  0001 C CNN
-F 3 "~" H 5550 4175 50  0001 C CNN
-	1    5550 4175
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5550 4025 5350 4025
-Wire Wire Line
-	5350 4025 5350 3975
-Connection ~ 5350 4025
-Wire Wire Line
-	6525 3975 6525 4025
-Wire Wire Line
-	6525 4325 7225 4325
-Wire Wire Line
-	7225 4325 7225 3925
-Wire Wire Line
-	7225 3625 7225 3575
-Wire Wire Line
-	7225 3575 7275 3575
-Wire Wire Line
-	7225 3575 7225 3125
-Wire Wire Line
-	7225 3125 7125 3125
-Connection ~ 7225 3575
-Wire Wire Line
-	6825 3125 6625 3125
-Wire Wire Line
-	6625 3125 6625 3075
-Wire Wire Line
-	6625 3125 6625 3175
-Connection ~ 6625 3125
-Wire Wire Line
-	6625 3125 6425 3125
-Wire Wire Line
-	6425 3125 6425 3075
-Wire Wire Line
-	6425 2775 6625 2775
-$Comp
-L Device:R R6
-U 1 1 5C6410FA
-P 4950 3575
-AR Path="/5C6410FA" Ref="R6"  Part="1" 
-AR Path="/5C6397B0/5C6410FA" Ref="R?"  Part="1" 
-F 0 "R6" V 4740 3575 50  0000 C CNN
-F 1 "470k" V 4833 3575 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4880 3575 50  0001 C CNN
-F 3 "~" H 4950 3575 50  0001 C CNN
-	1    4950 3575
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5100 3575 5150 3575
-Wire Wire Line
-	3600 3575 3650 3575
-Wire Wire Line
-	3850 3975 3850 4025
-Connection ~ 3850 4025
-Wire Wire Line
-	3850 4325 4050 4325
-Connection ~ 3850 4325
-Wire Wire Line
-	3950 3075 3950 3125
-Wire Wire Line
-	4150 3125 3950 3125
-Connection ~ 3950 3125
-Wire Wire Line
-	3950 3125 3950 3175
-Wire Wire Line
-	7575 3575 7625 3575
-Wire Wire Line
-	7825 3975 7825 4025
-Wire Wire Line
-	7825 4025 8025 4025
-Connection ~ 7825 4025
-Wire Wire Line
-	8025 4325 7825 4325
-$Comp
-L Device:R R16
-U 1 1 5C641110
-P 7925 2925
-AR Path="/5C641110" Ref="R16"  Part="1" 
-AR Path="/5C6397B0/5C641110" Ref="R?"  Part="1" 
-F 0 "R16" H 7995 2972 50  0000 L CNN
-F 1 "220k" H 7995 2879 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7855 2925 50  0001 C CNN
-F 3 "~" H 7925 2925 50  0001 C CNN
-	1    7925 2925
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7925 3075 7925 3125
-$Comp
-L Device:C C10
-U 1 1 5C641118
-P 8275 3125
-AR Path="/5C641118" Ref="C10"  Part="1" 
-AR Path="/5C6397B0/5C641118" Ref="C?"  Part="1" 
-F 0 "C10" V 8125 3125 50  0000 C CNN
-F 1 "100n" V 8425 3125 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 8313 2975 50  0001 C CNN
-F 3 "~" H 8275 3125 50  0001 C CNN
-	1    8275 3125
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8125 3125 7925 3125
-Connection ~ 7925 3125
-Wire Wire Line
-	7925 3125 7925 3175
-Wire Wire Line
-	3850 4375 3850 4325
-Wire Wire Line
-	5350 4375 5350 4325
-Connection ~ 5350 4325
-Wire Wire Line
-	7825 4375 7825 4325
-Connection ~ 7825 4325
-Wire Wire Line
-	6525 4375 6525 4325
-Connection ~ 6525 4325
-Wire Wire Line
-	4050 4025 3850 4025
-Connection ~ 4050 4325
-$Comp
-L Device:CP C2
-U 1 1 5C64112B
-P 2275 6825
-AR Path="/5C64112B" Ref="C2"  Part="1" 
-AR Path="/5C6397B0/5C64112B" Ref="C?"  Part="1" 
-F 0 "C2" H 2394 6872 50  0000 L CNN
-F 1 "47µ/350V" H 2394 6779 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal" H 2313 6675 50  0001 C CNN
-F 3 "~" H 2275 6825 50  0001 C CNN
-	1    2275 6825
+U 1 1 5C63A5EA
+P 3975 4025
+AR Path="/5C63A5EA" Ref="R3"  Part="1" 
+AR Path="/5C6397B0/5C63A5EA" Ref="R?"  Part="1" 
+F 0 "R3" H 4045 4072 50  0000 L CNN
+F 1 "220k" H 4045 3979 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3905 4025 50  0001 C CNN
+F 3 "~" H 3975 4025 50  0001 C CNN
+	1    3975 4025
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
-U 1 1 5C641132
-P 1925 6625
-AR Path="/5C641132" Ref="R1"  Part="1" 
-AR Path="/5C6397B0/5C641132" Ref="R?"  Part="1" 
-F 0 "R1" V 1715 6625 50  0000 C CNN
-F 1 "2.2k" V 1808 6625 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1855 6625 50  0001 C CNN
-F 3 "~" H 1925 6625 50  0001 C CNN
-	1    1925 6625
+U 1 1 5C63A5F1
+P 3475 4675
+AR Path="/5C63A5F1" Ref="R1"  Part="1" 
+AR Path="/5C6397B0/5C63A5F1" Ref="R?"  Part="1" 
+F 0 "R1" V 3265 4675 50  0000 C CNN
+F 1 "68k" V 3358 4675 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3405 4675 50  0001 C CNN
+F 3 "~" H 3475 4675 50  0001 C CNN
+	1    3475 4675
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP C1
-U 1 1 5C641139
-P 1575 6825
-AR Path="/5C641139" Ref="C1"  Part="1" 
-AR Path="/5C6397B0/5C641139" Ref="C?"  Part="1" 
-F 0 "C1" H 1694 6872 50  0000 L CNN
-F 1 "47µ/350V" H 1694 6779 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal" H 1613 6675 50  0001 C CNN
-F 3 "~" H 1575 6825 50  0001 C CNN
-	1    1575 6825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2775 6625 2875 6625
-Wire Wire Line
-	2475 6625 2275 6625
-Wire Wire Line
-	2275 6625 2275 6675
-Wire Wire Line
-	2275 6625 2075 6625
-Connection ~ 2275 6625
-Wire Wire Line
-	1575 6675 1575 6625
-Wire Wire Line
-	1575 6625 1775 6625
-Wire Wire Line
-	1575 6975 1575 7025
-Wire Wire Line
-	1575 7025 2275 7025
-Wire Wire Line
-	2275 7025 2275 6975
-Wire Wire Line
-	2275 7025 2875 7025
-Wire Wire Line
-	2875 7025 2875 6725
-Connection ~ 2275 7025
-Wire Wire Line
-	2275 7075 2275 7025
-Wire Wire Line
-	1575 6575 1575 6625
-Connection ~ 1575 6625
-Wire Wire Line
-	2275 6575 2275 6625
-Wire Wire Line
-	3950 2725 3950 2775
-Wire Wire Line
-	5450 2725 5450 2775
-Wire Wire Line
-	6625 2725 6625 2775
-Connection ~ 6625 2775
-Wire Wire Line
-	7925 2725 7925 2775
-$Comp
-L Fat-Bastard-rescue:B+-a-wai #PWR?
-U 1 1 5C641156
-P 2275 6575
-AR Path="/5C6397B0/5C641156" Ref="#PWR?"  Part="1" 
-AR Path="/5C641156" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 2275 6425 50  0001 C CNN
-F 1 "B+" H 2292 6750 50  0000 C CNN
-F 2 "" H 2275 6575 50  0000 C CNN
-F 3 "" H 2275 6575 50  0000 C CNN
-	1    2275 6575
+L Device:R R2
+U 1 1 5C63A5F8
+P 3875 5275
+AR Path="/5C63A5F8" Ref="R2"  Part="1" 
+AR Path="/5C6397B0/5C63A5F8" Ref="R?"  Part="1" 
+F 0 "R2" H 3700 5325 50  0000 L CNN
+F 1 "1.8k" H 3650 5225 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3805 5275 50  0001 C CNN
+F 3 "~" H 3875 5275 50  0001 C CNN
+	1    3875 5275
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fat-Bastard-rescue:B+-a-wai #PWR?
-U 1 1 5C64115C
-P 7925 2725
-AR Path="/5C6397B0/5C64115C" Ref="#PWR?"  Part="1" 
-AR Path="/5C64115C" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 7925 2575 50  0001 C CNN
-F 1 "B+" H 7942 2900 50  0000 C CNN
-F 2 "" H 7925 2725 50  0000 C CNN
-F 3 "" H 7925 2725 50  0000 C CNN
-	1    7925 2725
+L Device:C C1
+U 1 1 5C63A5FF
+P 4075 5275
+AR Path="/5C63A5FF" Ref="C1"  Part="1" 
+AR Path="/5C6397B0/5C63A5FF" Ref="C?"  Part="1" 
+F 0 "C1" H 3960 5228 50  0000 R CNN
+F 1 "1µ" H 3960 5321 50  0000 R CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4113 5125 50  0001 C CNN
+F 3 "~" H 4075 5275 50  0001 C CNN
+	1    4075 5275
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5C63A606
+P 5475 4025
+AR Path="/5C63A606" Ref="R6"  Part="1" 
+AR Path="/5C6397B0/5C63A606" Ref="R?"  Part="1" 
+F 0 "R6" H 5545 4072 50  0000 L CNN
+F 1 "100k" H 5545 3979 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5405 4025 50  0001 C CNN
+F 3 "~" H 5475 4025 50  0001 C CNN
+	1    5475 4025
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fat-Bastard-rescue:B+-a-wai #PWR?
-U 1 1 5C641162
-P 6625 2725
-AR Path="/5C6397B0/5C641162" Ref="#PWR?"  Part="1" 
-AR Path="/5C641162" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 6625 2575 50  0001 C CNN
-F 1 "B+" H 6642 2900 50  0000 C CNN
-F 2 "" H 6625 2725 50  0000 C CNN
-F 3 "" H 6625 2725 50  0000 C CNN
-	1    6625 2725
+L Device:C C4
+U 1 1 5C63A60D
+P 5825 4225
+AR Path="/5C63A60D" Ref="C4"  Part="1" 
+AR Path="/5C6397B0/5C63A60D" Ref="C?"  Part="1" 
+F 0 "C4" V 5675 4225 50  0000 C CNN
+F 1 "22n" V 5975 4225 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 5863 4075 50  0001 C CNN
+F 3 "~" H 5825 4225 50  0001 C CNN
+	1    5825 4225
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5C63A614
+P 6125 4425
+AR Path="/5C63A614" Ref="R7"  Part="1" 
+AR Path="/5C6397B0/5C63A614" Ref="R?"  Part="1" 
+F 0 "R7" H 6195 4472 50  0000 L CNN
+F 1 "470k" H 6195 4379 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6055 4425 50  0001 C CNN
+F 3 "~" H 6125 4425 50  0001 C CNN
+	1    6125 4425
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fat-Bastard-rescue:C+-a-wai #PWR?
-U 1 1 5C641168
-P 1575 6575
-AR Path="/5C6397B0/5C641168" Ref="#PWR?"  Part="1" 
-AR Path="/5C641168" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 1575 6425 50  0001 C CNN
-F 1 "C+" H 1592 6750 50  0000 C CNN
-F 2 "" H 1575 6575 50  0000 C CNN
-F 3 "" H 1575 6575 50  0000 C CNN
-	1    1575 6575
+L Device:R R8
+U 1 1 5C63A61B
+P 6125 4875
+AR Path="/5C63A61B" Ref="R8"  Part="1" 
+AR Path="/5C6397B0/5C63A61B" Ref="R?"  Part="1" 
+F 0 "R8" H 6195 4922 50  0000 L CNN
+F 1 "1M" H 6195 4829 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6055 4875 50  0001 C CNN
+F 3 "~" H 6125 4875 50  0001 C CNN
+	1    6125 4875
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fat-Bastard-rescue:C+-a-wai #PWR?
-U 1 1 5C64116E
-P 5450 2725
-AR Path="/5C6397B0/5C64116E" Ref="#PWR?"  Part="1" 
-AR Path="/5C64116E" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 5450 2575 50  0001 C CNN
-F 1 "C+" H 5467 2900 50  0000 C CNN
-F 2 "" H 5450 2725 50  0000 C CNN
-F 3 "" H 5450 2725 50  0000 C CNN
-	1    5450 2725
+L Device:R R9
+U 1 1 5C63A622
+P 6550 5275
+AR Path="/5C63A622" Ref="R9"  Part="1" 
+AR Path="/5C6397B0/5C63A622" Ref="R?"  Part="1" 
+F 0 "R9" H 6620 5322 50  0000 L CNN
+F 1 "27k" H 6620 5229 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6480 5275 50  0001 C CNN
+F 3 "~" H 6550 5275 50  0001 C CNN
+	1    6550 5275
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fat-Bastard-rescue:C+-a-wai #PWR?
-U 1 1 5C641174
-P 3950 2725
-AR Path="/5C6397B0/5C641174" Ref="#PWR?"  Part="1" 
-AR Path="/5C641174" Ref="#PWR0106"  Part="1" 
-F 0 "#PWR0106" H 3950 2575 50  0001 C CNN
-F 1 "C+" H 3967 2900 50  0000 C CNN
-F 2 "" H 3950 2725 50  0000 C CNN
-F 3 "" H 3950 2725 50  0000 C CNN
-	1    3950 2725
+L Device:R R5
+U 1 1 5C63A629
+P 5375 5275
+AR Path="/5C63A629" Ref="R5"  Part="1" 
+AR Path="/5C6397B0/5C63A629" Ref="R?"  Part="1" 
+F 0 "R5" H 5200 5325 50  0000 L CNN
+F 1 "1.8k" H 5150 5225 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5305 5275 50  0001 C CNN
+F 3 "~" H 5375 5275 50  0001 C CNN
+	1    5375 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5C63A630
+P 7250 4875
+AR Path="/5C63A630" Ref="R11"  Part="1" 
+AR Path="/5C6397B0/5C63A630" Ref="R?"  Part="1" 
+F 0 "R11" H 7320 4922 50  0000 L CNN
+F 1 "330k" H 7320 4829 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 7180 4875 50  0001 C CNN
+F 3 "~" H 7250 4875 50  0001 C CNN
+	1    7250 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5C63A637
+P 7450 4675
+AR Path="/5C63A637" Ref="R12"  Part="1" 
+AR Path="/5C6397B0/5C63A637" Ref="R?"  Part="1" 
+F 0 "R12" V 7240 4675 50  0000 C CNN
+F 1 "220k" V 7333 4675 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 7380 4675 50  0001 C CNN
+F 3 "~" H 7450 4675 50  0001 C CNN
+	1    7450 4675
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5C63A63E
+P 6650 4025
+AR Path="/5C63A63E" Ref="R10"  Part="1" 
+AR Path="/5C6397B0/5C63A63E" Ref="R?"  Part="1" 
+F 0 "R10" H 6720 4072 50  0000 L CNN
+F 1 "100k" H 6720 3979 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6580 4025 50  0001 C CNN
+F 3 "~" H 6650 4025 50  0001 C CNN
+	1    6650 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5C63A645
+P 7000 4225
+AR Path="/5C63A645" Ref="C6"  Part="1" 
+AR Path="/5C6397B0/5C63A645" Ref="C?"  Part="1" 
+F 0 "C6" V 6850 4225 50  0000 C CNN
+F 1 "22n" V 7150 4225 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 7038 4075 50  0001 C CNN
+F 3 "~" H 7000 4225 50  0001 C CNN
+	1    7000 4225
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5C63A64C
+P 6450 4025
+AR Path="/5C63A64C" Ref="C5"  Part="1" 
+AR Path="/5C6397B0/5C63A64C" Ref="C?"  Part="1" 
+F 0 "C5" H 6250 4075 50  0000 L CNN
+F 1 "1n" H 6250 3975 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_MKS4" H 6488 3875 50  0001 C CNN
+F 3 "~" H 6450 4025 50  0001 C CNN
+	1    6450 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5C63A653
+P 7850 5275
+AR Path="/5C63A653" Ref="R13"  Part="1" 
+AR Path="/5C6397B0/5C63A653" Ref="R?"  Part="1" 
+F 0 "R13" H 7675 5325 50  0000 L CNN
+F 1 "1.8k" H 7625 5225 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 7780 5275 50  0001 C CNN
+F 3 "~" H 7850 5275 50  0001 C CNN
+	1    7850 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5C63A65A
+P 8050 5275
+AR Path="/5C63A65A" Ref="C7"  Part="1" 
+AR Path="/5C6397B0/5C63A65A" Ref="C?"  Part="1" 
+F 0 "C7" H 7935 5228 50  0000 R CNN
+F 1 "1µ" H 7935 5321 50  0000 R CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 8088 5125 50  0001 C CNN
+F 3 "~" H 8050 5275 50  0001 C CNN
+	1    8050 5275
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5475 4175 5475 4225
+Wire Wire Line
+	5675 4225 5475 4225
+Connection ~ 5475 4225
+Wire Wire Line
+	5475 4225 5475 4275
+Wire Wire Line
+	5975 4225 6125 4225
+Wire Wire Line
+	6125 4225 6125 4275
+Wire Wire Line
+	6125 4575 6125 4675
+Wire Wire Line
+	6350 4675 6125 4675
+Connection ~ 6125 4675
+Wire Wire Line
+	6125 4675 6125 4725
+Wire Wire Line
+	6125 5025 6125 5425
+Wire Wire Line
+	5375 5425 5575 5425
+Wire Wire Line
+	6125 5425 5575 5425
+Connection ~ 5575 5425
+$Comp
+L Device:C C3
+U 1 1 5C63A66F
+P 5575 5275
+AR Path="/5C63A66F" Ref="C3"  Part="1" 
+AR Path="/5C6397B0/5C63A66F" Ref="C?"  Part="1" 
+F 0 "C3" H 5460 5228 50  0000 R CNN
+F 1 "1µ" H 5460 5321 50  0000 R CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 5613 5125 50  0001 C CNN
+F 3 "~" H 5575 5275 50  0001 C CNN
+	1    5575 5275
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5575 5125 5375 5125
+Wire Wire Line
+	5375 5125 5375 5075
+Connection ~ 5375 5125
+Wire Wire Line
+	6550 5075 6550 5125
+Wire Wire Line
+	6550 5425 7250 5425
+Wire Wire Line
+	7250 5425 7250 5025
+Wire Wire Line
+	7250 4725 7250 4675
+Wire Wire Line
+	7250 4675 7300 4675
+Wire Wire Line
+	7250 4675 7250 4225
+Wire Wire Line
+	7250 4225 7150 4225
+Connection ~ 7250 4675
+Wire Wire Line
+	6850 4225 6650 4225
+Wire Wire Line
+	6650 4225 6650 4175
+Wire Wire Line
+	6650 4225 6650 4275
+Connection ~ 6650 4225
+Wire Wire Line
+	6650 4225 6450 4225
+Wire Wire Line
+	6450 4225 6450 4175
+Wire Wire Line
+	6450 3875 6650 3875
+$Comp
+L Device:R R4
+U 1 1 5C63A688
+P 4975 4675
+AR Path="/5C63A688" Ref="R4"  Part="1" 
+AR Path="/5C6397B0/5C63A688" Ref="R?"  Part="1" 
+F 0 "R4" V 4765 4675 50  0000 C CNN
+F 1 "470k" V 4858 4675 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 4905 4675 50  0001 C CNN
+F 3 "~" H 4975 4675 50  0001 C CNN
+	1    4975 4675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5125 4675 5175 4675
+Wire Wire Line
+	3625 4675 3675 4675
+Wire Wire Line
+	3875 5075 3875 5125
+Connection ~ 3875 5125
+Wire Wire Line
+	3875 5425 4075 5425
+Connection ~ 3875 5425
+Wire Wire Line
+	3975 4175 3975 4225
+Wire Wire Line
+	4175 4225 3975 4225
+Connection ~ 3975 4225
+Wire Wire Line
+	3975 4225 3975 4275
+Wire Wire Line
+	7600 4675 7650 4675
+Wire Wire Line
+	7850 5075 7850 5125
+Wire Wire Line
+	7850 5125 8050 5125
+Connection ~ 7850 5125
+Wire Wire Line
+	8050 5425 7850 5425
+$Comp
+L Device:R R14
+U 1 1 5C63A6AB
+P 7950 4025
+AR Path="/5C63A6AB" Ref="R14"  Part="1" 
+AR Path="/5C6397B0/5C63A6AB" Ref="R?"  Part="1" 
+F 0 "R14" H 8020 4072 50  0000 L CNN
+F 1 "220k" H 8020 3979 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 7880 4025 50  0001 C CNN
+F 3 "~" H 7950 4025 50  0001 C CNN
+	1    7950 4025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4175 7950 4225
+$Comp
+L Device:C C8
+U 1 1 5C63A6B3
+P 8300 4225
+AR Path="/5C63A6B3" Ref="C8"  Part="1" 
+AR Path="/5C6397B0/5C63A6B3" Ref="C?"  Part="1" 
+F 0 "C8" V 8150 4225 50  0000 C CNN
+F 1 "100n" V 8450 4225 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L19.0mm_W6.0mm_P15.00mm_MKS4" H 8338 4075 50  0001 C CNN
+F 3 "~" H 8300 4225 50  0001 C CNN
+	1    8300 4225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 4225 7950 4225
+Connection ~ 7950 4225
+Wire Wire Line
+	7950 4225 7950 4275
+Wire Wire Line
+	3875 5475 3875 5425
+Wire Wire Line
+	5375 5475 5375 5425
+Connection ~ 5375 5425
+Wire Wire Line
+	7850 5475 7850 5425
+Connection ~ 7850 5425
+Wire Wire Line
+	6550 5475 6550 5425
+Connection ~ 6550 5425
+Wire Wire Line
+	4075 5125 3875 5125
+Connection ~ 4075 5425
+$Comp
+L Device:CP C10
+U 1 1 5C63A71A
+P 9175 1725
+AR Path="/5C63A71A" Ref="C10"  Part="1" 
+AR Path="/5C6397B0/5C63A71A" Ref="C?"  Part="1" 
+F 0 "C10" H 9294 1772 50  0000 L CNN
+F 1 "33µ/450V" H 9294 1679 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm" H 9213 1575 50  0001 C CNN
+F 3 "~" H 9175 1725 50  0001 C CNN
+	1    9175 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5C63A721
+P 8125 1525
+AR Path="/5C63A721" Ref="R15"  Part="1" 
+AR Path="/5C6397B0/5C63A721" Ref="R?"  Part="1" 
+F 0 "R15" V 7915 1525 50  0000 C CNN
+F 1 "2.2k" V 8008 1525 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 8055 1525 50  0001 C CNN
+F 3 "~" H 8125 1525 50  0001 C CNN
+	1    8125 1525
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C9
+U 1 1 5C63A728
+P 7775 1725
+AR Path="/5C63A728" Ref="C9"  Part="1" 
+AR Path="/5C6397B0/5C63A728" Ref="C?"  Part="1" 
+F 0 "C9" H 7894 1772 50  0000 L CNN
+F 1 "10µ/450V" H 7894 1679 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm" H 7813 1575 50  0001 C CNN
+F 3 "~" H 7775 1725 50  0001 C CNN
+	1    7775 1725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9675 1525 9775 1525
+Wire Wire Line
+	9375 1525 9175 1525
+Wire Wire Line
+	9175 1525 9175 1575
+Connection ~ 9175 1525
+Wire Wire Line
+	7775 1575 7775 1525
+Wire Wire Line
+	7775 1525 7975 1525
+Wire Wire Line
+	7775 1875 7775 1925
+Wire Wire Line
+	9175 1925 9175 1875
+Wire Wire Line
+	9175 1925 9775 1925
+Wire Wire Line
+	9775 1925 9775 1625
+Connection ~ 9175 1925
+Wire Wire Line
+	9175 1975 9175 1925
+Wire Wire Line
+	7775 1475 7775 1525
+Connection ~ 7775 1525
+Wire Wire Line
+	9175 1475 9175 1525
+Wire Wire Line
+	3975 3825 3975 3875
+Wire Wire Line
+	5475 3825 5475 3875
+Wire Wire Line
+	6650 3825 6650 3875
+Connection ~ 6650 3875
+Wire Wire Line
+	7950 3825 7950 3875
+$Comp
+L fat_bastard_lead-rescue:B+-a-wai #PWR014
+U 1 1 5C63CE0C
+P 9175 1475
+F 0 "#PWR014" H 9175 1325 50  0001 C CNN
+F 1 "B+" H 9192 1650 50  0000 C CNN
+F 2 "" H 9175 1475 50  0000 C CNN
+F 3 "" H 9175 1475 50  0000 C CNN
+	1    9175 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L fat_bastard_lead-rescue:B+-a-wai #PWR012
+U 1 1 5C63D069
+P 7950 3825
+F 0 "#PWR012" H 7950 3675 50  0001 C CNN
+F 1 "B+" H 7967 4000 50  0000 C CNN
+F 2 "" H 7950 3825 50  0000 C CNN
+F 3 "" H 7950 3825 50  0000 C CNN
+	1    7950 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L fat_bastard_lead-rescue:B+-a-wai #PWR010
+U 1 1 5C63D0C6
+P 6650 3825
+F 0 "#PWR010" H 6650 3675 50  0001 C CNN
+F 1 "B+" H 6667 4000 50  0000 C CNN
+F 2 "" H 6650 3825 50  0000 C CNN
+F 3 "" H 6650 3825 50  0000 C CNN
+	1    6650 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L fat_bastard_lead-rescue:C+-a-wai #PWR013
+U 1 1 5C63D285
+P 7775 1475
+F 0 "#PWR013" H 7775 1325 50  0001 C CNN
+F 1 "C+" H 7792 1650 50  0000 C CNN
+F 2 "" H 7775 1475 50  0000 C CNN
+F 3 "" H 7775 1475 50  0000 C CNN
+	1    7775 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L fat_bastard_lead-rescue:C+-a-wai #PWR08
+U 1 1 5C63D3DF
+P 5475 3825
+F 0 "#PWR08" H 5475 3675 50  0001 C CNN
+F 1 "C+" H 5492 4000 50  0000 C CNN
+F 2 "" H 5475 3825 50  0000 C CNN
+F 3 "" H 5475 3825 50  0000 C CNN
+	1    5475 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L fat_bastard_lead-rescue:C+-a-wai #PWR06
+U 1 1 5C63D67A
+P 3975 3825
+F 0 "#PWR06" H 3975 3675 50  0001 C CNN
+F 1 "C+" H 3992 4000 50  0000 C CNN
+F 2 "" H 3975 3825 50  0000 C CNN
+F 3 "" H 3975 3825 50  0000 C CNN
+	1    3975 3825
 	1    0    0    -1  
 $EndComp
 $Comp
 L Valve:ECC83 U1
-U 3 1 5C64117A
-P 4175 6525
-AR Path="/5C64117A" Ref="U1"  Part="3" 
-AR Path="/5C6397B0/5C64117A" Ref="U?"  Part="3" 
-F 0 "U1" H 3800 6325 50  0000 L CNN
-F 1 "ECC83" H 3700 6225 50  0000 L CNN
-F 2 "Valve:Valve_Noval_P" H 4445 6125 50  0001 C CNN
-F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 4175 6525 50  0001 C CNN
-	3    4175 6525
-	1    0    0    -1  
+U 3 1 5C63DCEE
+P 3800 1375
+AR Path="/5C63DCEE" Ref="U1"  Part="3" 
+AR Path="/5C6397B0/5C63DCEE" Ref="U?"  Part="3" 
+F 0 "U1" H 4050 1375 50  0000 L CNN
+F 1 "ECC83" H 4025 1275 50  0000 L CNN
+F 2 "Valve:Valve_ECC-83-2" H 4070 975 50  0001 C CNN
+F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 3800 1375 50  0001 C CNN
+	3    3800 1375
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Valve:ECC83 U2
-U 3 1 5C641181
-P 4900 6525
-AR Path="/5C641181" Ref="U2"  Part="3" 
-AR Path="/5C6397B0/5C641181" Ref="U?"  Part="3" 
-F 0 "U2" H 5125 6325 50  0000 L CNN
-F 1 "ECC83" H 5125 6225 50  0000 L CNN
-F 2 "Valve:Valve_Noval_P" H 5170 6125 50  0001 C CNN
-F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 4900 6525 50  0001 C CNN
-	3    4900 6525
+U 3 1 5C63DE52
+P 4525 1375
+AR Path="/5C63DE52" Ref="U2"  Part="3" 
+AR Path="/5C6397B0/5C63DE52" Ref="U?"  Part="3" 
+F 0 "U2" H 4125 1375 50  0000 L CNN
+F 1 "ECC83" H 4050 1275 50  0000 L CNN
+F 2 "Valve:Valve_ECC-83-2" H 4795 975 50  0001 C CNN
+F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 4525 1375 50  0001 C CNN
+	3    4525 1375
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1825 4150 1825
+Wire Wire Line
+	4625 1825 4625 1925
+Wire Wire Line
+	4625 1925 4150 1925
+Wire Wire Line
+	3700 1925 3700 1825
+NoConn ~ 4525 1825
+NoConn ~ 3800 1825
+$Comp
+L power:GND #PWR04
+U 1 1 5C64F319
+P 4150 2325
+AR Path="/5C64F319" Ref="#PWR04"  Part="1" 
+AR Path="/5C6397B0/5C64F319" Ref="#PWR?"  Part="1" 
+F 0 "#PWR04" H 4150 2075 50  0001 C CNN
+F 1 "GND" H 4155 2150 50  0000 C CNN
+F 2 "" H 4150 2325 50  0001 C CNN
+F 3 "" H 4150 2325 50  0001 C CNN
+	1    4150 2325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4275 6975 4525 6975
+	4150 1975 4150 1925
+Connection ~ 4150 1925
 Wire Wire Line
-	5000 6975 5000 7075
-Wire Wire Line
-	5000 7075 4525 7075
-Wire Wire Line
-	4075 7075 4075 6975
-NoConn ~ 4900 6975
-NoConn ~ 4175 6975
+	4150 1925 3700 1925
 $Comp
-L power:GND #PWR0107
-U 1 1 5C64118E
-P 4525 7125
-AR Path="/5C64118E" Ref="#PWR0107"  Part="1" 
-AR Path="/5C6397B0/5C64118E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0107" H 4525 6875 50  0001 C CNN
-F 1 "GND" H 4530 6950 50  0000 C CNN
-F 2 "" H 4525 7125 50  0001 C CNN
-F 3 "" H 4525 7125 50  0001 C CNN
-	1    4525 7125
+L power:+12V #PWR03
+U 1 1 5C652F86
+P 4150 1775
+F 0 "#PWR03" H 4150 1625 50  0001 C CNN
+F 1 "+12V" H 4165 1950 50  0000 C CNN
+F 2 "" H 4150 1775 50  0001 C CNN
+F 3 "" H 4150 1775 50  0001 C CNN
+	1    4150 1775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4525 7125 4525 7075
-Connection ~ 4525 7075
+	4150 1825 4150 1775
+Connection ~ 4150 1825
 Wire Wire Line
-	4525 7075 4075 7075
+	4150 1825 4425 1825
 $Comp
-L power:+12V #PWR?
-U 1 1 5C641197
-P 4525 6925
-AR Path="/5C6397B0/5C641197" Ref="#PWR?"  Part="1" 
-AR Path="/5C641197" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 4525 6775 50  0001 C CNN
-F 1 "+12V" H 4540 7100 50  0000 C CNN
-F 2 "" H 4525 6925 50  0001 C CNN
-F 3 "" H 4525 6925 50  0001 C CNN
-	1    4525 6925
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4525 6975 4525 6925
-Connection ~ 4525 6975
-Wire Wire Line
-	4525 6975 4800 6975
-$Comp
-L power:GNDA #PWR?
-U 1 1 5C6411A0
-P 3850 4375
-AR Path="/5C6397B0/5C6411A0" Ref="#PWR?"  Part="1" 
-AR Path="/5C6411A0" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 3850 4125 50  0001 C CNN
-F 1 "GNDA" H 3855 4200 50  0000 C CNN
-F 2 "" H 3850 4375 50  0001 C CNN
-F 3 "" H 3850 4375 50  0001 C CNN
-	1    3850 4375
+L power:GNDA #PWR05
+U 1 1 5C655464
+P 3875 5475
+F 0 "#PWR05" H 3875 5225 50  0001 C CNN
+F 1 "GNDA" H 3880 5300 50  0000 C CNN
+F 2 "" H 3875 5475 50  0001 C CNN
+F 3 "" H 3875 5475 50  0001 C CNN
+	1    3875 5475
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
-U 1 1 5C6411A6
-P 5350 4375
-AR Path="/5C6397B0/5C6411A6" Ref="#PWR?"  Part="1" 
-AR Path="/5C6411A6" Ref="#PWR0110"  Part="1" 
-F 0 "#PWR0110" H 5350 4125 50  0001 C CNN
-F 1 "GNDA" H 5355 4200 50  0000 C CNN
-F 2 "" H 5350 4375 50  0001 C CNN
-F 3 "" H 5350 4375 50  0001 C CNN
-	1    5350 4375
+L power:GNDA #PWR07
+U 1 1 5C655673
+P 5375 5475
+F 0 "#PWR07" H 5375 5225 50  0001 C CNN
+F 1 "GNDA" H 5380 5300 50  0000 C CNN
+F 2 "" H 5375 5475 50  0001 C CNN
+F 3 "" H 5375 5475 50  0001 C CNN
+	1    5375 5475
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
-U 1 1 5C6411AC
-P 6525 4375
-AR Path="/5C6397B0/5C6411AC" Ref="#PWR?"  Part="1" 
-AR Path="/5C6411AC" Ref="#PWR0111"  Part="1" 
-F 0 "#PWR0111" H 6525 4125 50  0001 C CNN
-F 1 "GNDA" H 6530 4200 50  0000 C CNN
-F 2 "" H 6525 4375 50  0001 C CNN
-F 3 "" H 6525 4375 50  0001 C CNN
-	1    6525 4375
+L power:GNDA #PWR09
+U 1 1 5C655762
+P 6550 5475
+F 0 "#PWR09" H 6550 5225 50  0001 C CNN
+F 1 "GNDA" H 6555 5300 50  0000 C CNN
+F 2 "" H 6550 5475 50  0001 C CNN
+F 3 "" H 6550 5475 50  0001 C CNN
+	1    6550 5475
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
-U 1 1 5C6411B2
-P 7825 4375
-AR Path="/5C6397B0/5C6411B2" Ref="#PWR?"  Part="1" 
-AR Path="/5C6411B2" Ref="#PWR0112"  Part="1" 
-F 0 "#PWR0112" H 7825 4125 50  0001 C CNN
-F 1 "GNDA" H 7830 4200 50  0000 C CNN
-F 2 "" H 7825 4375 50  0001 C CNN
-F 3 "" H 7825 4375 50  0001 C CNN
-	1    7825 4375
+L power:GNDA #PWR011
+U 1 1 5C6557B9
+P 7850 5475
+F 0 "#PWR011" H 7850 5225 50  0001 C CNN
+F 1 "GNDA" H 7855 5300 50  0000 C CNN
+F 2 "" H 7850 5475 50  0001 C CNN
+F 3 "" H 7850 5475 50  0001 C CNN
+	1    7850 5475
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
-U 1 1 5C6411B8
-P 2275 7075
-AR Path="/5C6397B0/5C6411B8" Ref="#PWR?"  Part="1" 
-AR Path="/5C6411B8" Ref="#PWR0113"  Part="1" 
-F 0 "#PWR0113" H 2275 6825 50  0001 C CNN
-F 1 "GNDA" H 2280 6900 50  0000 C CNN
-F 2 "" H 2275 7075 50  0001 C CNN
-F 3 "" H 2275 7075 50  0001 C CNN
-	1    2275 7075
+L power:GNDA #PWR015
+U 1 1 5C655B85
+P 9175 1975
+F 0 "#PWR015" H 9175 1725 50  0001 C CNN
+F 1 "GNDA" H 9180 1800 50  0000 C CNN
+F 2 "" H 9175 1975 50  0001 C CNN
+F 3 "" H 9175 1975 50  0001 C CNN
+	1    9175 1975
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
-U 1 1 5C6411BE
-P 5925 6875
-AR Path="/5C6397B0/5C6411BE" Ref="#PWR?"  Part="1" 
-AR Path="/5C6411BE" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 5925 6725 50  0001 C CNN
-F 1 "+12V" H 5940 7050 50  0000 C CNN
-F 2 "" H 5925 6875 50  0001 C CNN
-F 3 "" H 5925 6875 50  0001 C CNN
-	1    5925 6875
+L power:+12V #PWR01
+U 1 1 5C66056F
+P 1375 1450
+F 0 "#PWR01" H 1375 1300 50  0001 C CNN
+F 1 "+12V" H 1390 1625 50  0000 C CNN
+F 2 "" H 1375 1450 50  0001 C CNN
+F 3 "" H 1375 1450 50  0001 C CNN
+	1    1375 1450
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0115
-U 1 1 5C6411C4
-P 5925 7175
-AR Path="/5C6411C4" Ref="#PWR0115"  Part="1" 
-AR Path="/5C6397B0/5C6411C4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0115" H 5925 6925 50  0001 C CNN
-F 1 "GND" H 5930 7000 50  0000 C CNN
-F 2 "" H 5925 7175 50  0001 C CNN
-F 3 "" H 5925 7175 50  0001 C CNN
-	1    5925 7175
+L power:GND #PWR02
+U 1 1 5C6605CA
+P 1375 1750
+AR Path="/5C6605CA" Ref="#PWR02"  Part="1" 
+AR Path="/5C6397B0/5C6605CA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR02" H 1375 1500 50  0001 C CNN
+F 1 "GND" H 1380 1575 50  0000 C CNN
+F 2 "" H 1375 1750 50  0001 C CNN
+F 3 "" H 1375 1750 50  0001 C CNN
+	1    1375 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5925 7075 5975 7075
+	1375 1650 1425 1650
 Wire Wire Line
-	5975 6975 5925 6975
+	1425 1550 1375 1550
 $Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5C6411CC
-P 6175 6975
-AR Path="/5C6397B0/5C6411CC" Ref="J?"  Part="1" 
-AR Path="/5C6411CC" Ref="J3"  Part="1" 
-F 0 "J3" H 6255 6968 50  0000 L CNN
-F 1 "12V_IN" H 6255 6875 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 6175 6975 50  0001 C CNN
-F 3 "~" H 6175 6975 50  0001 C CNN
-	1    6175 6975
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5C664B04
+P 1625 1550
+F 0 "J1" H 1705 1543 50  0000 L CNN
+F 1 "LD_12V" H 1705 1450 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 1625 1550 50  0001 C CNN
+F 3 "~" H 1625 1550 50  0001 C CNN
+	1    1625 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J?
-U 1 1 5C6411D3
-P 3075 6625
-AR Path="/5C6397B0/5C6411D3" Ref="J?"  Part="1" 
-AR Path="/5C6411D3" Ref="J1"  Part="1" 
-F 0 "J1" H 3155 6618 50  0000 L CNN
-F 1 "HT IN" H 3155 6525 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3075 6625 50  0001 C CNN
-F 3 "~" H 3075 6625 50  0001 C CNN
-	1    3075 6625
+L Connector:Screw_Terminal_01x02 J5
+U 1 1 5C664C6C
+P 9975 1525
+F 0 "J5" H 10055 1518 50  0000 L CNN
+F 1 "HT_IN" H 10055 1425 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal" H 9975 1525 50  0001 C CNN
+F 3 "~" H 9975 1525 50  0001 C CNN
+	1    9975 1525
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 5C6411DA
-P 4475 3575
-AR Path="/5C6397B0/5C6411DA" Ref="J?"  Part="1" 
-AR Path="/5C6411DA" Ref="J4"  Part="1" 
-F 0 "J4" H 4394 3246 50  0000 C CNN
-F 1 "GAIN" H 4394 3339 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4475 3575 50  0001 C CNN
-F 3 "~" H 4475 3575 50  0001 C CNN
-	1    4475 3575
+L Connector_Generic:Conn_01x03 J3
+U 1 1 5C664DC9
+P 4500 4675
+F 0 "J3" H 4419 4346 50  0000 C CNN
+F 1 "LD_GAIN" H 4419 4439 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4500 4675 50  0001 C CNN
+F 3 "~" H 4500 4675 50  0001 C CNN
+	1    4500 4675
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5925 6975 5925 6875
+	1375 1550 1375 1450
 Wire Wire Line
-	5925 7175 5925 7075
+	1375 1750 1375 1650
 $Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5C6411E5
-P 2825 3675
-AR Path="/5C6397B0/5C6411E5" Ref="J?"  Part="1" 
-AR Path="/5C6411E5" Ref="J2"  Part="1" 
-F 0 "J2" H 2744 3346 50  0000 C CNN
-F 1 "LD_IN" H 2744 3439 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2825 3675 50  0001 C CNN
-F 3 "~" H 2825 3675 50  0001 C CNN
-	1    2825 3675
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5C66F36E
+P 2850 4775
+F 0 "J2" H 2769 4446 50  0000 C CNN
+F 1 "LD_IN" H 2769 4539 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2850 4775 50  0001 C CNN
+F 3 "~" H 2850 4775 50  0001 C CNN
+	1    2850 4775
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3850 4325 3025 4325
+	3875 5425 3050 5425
 Wire Wire Line
-	3025 4325 3025 3675
+	3050 5425 3050 4775
 Wire Wire Line
-	3025 3575 3300 3575
+	3050 4675 3325 4675
 Wire Wire Line
-	4675 4325 4675 3675
-Wire Wire Line
-	4050 4325 4675 4325
-Wire Wire Line
-	4675 3475 4675 3125
-Wire Wire Line
-	4450 3125 4675 3125
-Wire Wire Line
-	4675 3575 4800 3575
-Text Label 4150 3125 2    50   ~ 0
+	4700 4675 4825 4675
+Text Label 4175 4225 2    50   ~ 0
 HT1
-Text Label 5650 3125 2    50   ~ 0
+Text Label 5675 4225 2    50   ~ 0
 HT2
-Text Label 6825 3125 2    50   ~ 0
+Text Label 6850 4225 2    50   ~ 0
 HT3
-Text Label 8125 3125 2    50   ~ 0
+Text Label 8150 4225 2    50   ~ 0
 HT4
 $Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5C6411FD
-P 8725 3575
-AR Path="/5C6397B0/5C6411FD" Ref="J?"  Part="1" 
-AR Path="/5C6411FD" Ref="J5"  Part="1" 
-F 0 "J5" H 8805 3568 50  0000 L CNN
-F 1 "LD_OUT" H 8805 3475 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 8725 3575 50  0001 C CNN
-F 3 "~" H 8725 3575 50  0001 C CNN
-	1    8725 3575
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5C6932EA
+P 8750 4675
+F 0 "J4" H 8830 4668 50  0000 L CNN
+F 1 "LD_OUT" H 8830 4575 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 8750 4675 50  0001 C CNN
+F 3 "~" H 8750 4675 50  0001 C CNN
+	1    8750 4675
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8525 3575 8525 3125
+	8550 4675 8550 4225
 Wire Wire Line
-	8525 3125 8425 3125
+	8550 4225 8450 4225
 Wire Wire Line
-	8525 3675 8525 4325
+	8550 4775 8550 5425
 Wire Wire Line
-	8525 4325 8025 4325
-Connection ~ 8025 4325
+	8550 5425 8050 5425
+Connection ~ 8050 5425
 $Comp
-L Valve:ECC83 U1
-U 1 1 5C641040
-P 5450 3575
-AR Path="/5C641040" Ref="U1"  Part="1" 
-AR Path="/5C6397B0/5C641040" Ref="U?"  Part="1" 
-F 0 "U1" H 5678 3622 50  0000 L CNN
-F 1 "ECC83" H 5678 3529 50  0000 L CNN
-F 2 "Valve:Valve_Noval_P" H 5720 3175 50  0001 C CNN
-F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 5450 3575 50  0001 C CNN
-	1    5450 3575
+L Device:C C12
+U 1 1 5C6458B6
+P 8750 1725
+AR Path="/5C6458B6" Ref="C12"  Part="1" 
+AR Path="/5C6397B0/5C6458B6" Ref="C?"  Part="1" 
+F 0 "C12" H 8635 1678 50  0000 R CNN
+F 1 "100n" H 8635 1771 50  0000 R CNN
+F 2 "Capacitor_THT:C_Rect_L19.0mm_W6.0mm_P15.00mm_MKS4" H 8788 1575 50  0001 C CNN
+F 3 "~" H 8750 1725 50  0001 C CNN
+	1    8750 1725
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 5C645B27
+P 7350 1725
+AR Path="/5C645B27" Ref="C11"  Part="1" 
+AR Path="/5C6397B0/5C645B27" Ref="C?"  Part="1" 
+F 0 "C11" H 7235 1678 50  0000 R CNN
+F 1 "100n" H 7235 1771 50  0000 R CNN
+F 2 "Capacitor_THT:C_Rect_L19.0mm_W6.0mm_P15.00mm_MKS4" H 7388 1575 50  0001 C CNN
+F 3 "~" H 7350 1725 50  0001 C CNN
+	1    7350 1725
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 1875 7350 1925
+Wire Wire Line
+	7350 1925 7775 1925
+Connection ~ 7775 1925
+Wire Wire Line
+	7775 1525 7350 1525
+Wire Wire Line
+	7350 1525 7350 1575
+Wire Wire Line
+	8750 1525 8750 1575
+Wire Wire Line
+	8275 1525 8750 1525
+Wire Wire Line
+	8750 1525 9175 1525
+Connection ~ 8750 1525
+Wire Wire Line
+	8750 1925 8750 1875
+Wire Wire Line
+	7775 1925 8750 1925
+Wire Wire Line
+	8750 1925 9175 1925
+Connection ~ 8750 1925
+$Comp
+L Device:R R17
+U 1 1 5C653E4C
+P 4150 2125
+AR Path="/5C653E4C" Ref="R17"  Part="1" 
+AR Path="/5C6397B0/5C653E4C" Ref="R?"  Part="1" 
+F 0 "R17" H 3950 2175 50  0000 L CNN
+F 1 "0R" H 3975 2075 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" V 4080 2125 50  0001 C CNN
+F 3 "~" H 4150 2125 50  0001 C CNN
+	1    4150 2125
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4150 2275 4150 2325
+Wire Wire Line
+	4700 4575 4750 4575
+Wire Wire Line
+	4750 4575 4750 4225
+Wire Wire Line
+	4475 4225 4750 4225
+Wire Wire Line
+	4700 4775 4750 4775
+Wire Wire Line
+	4750 4775 4750 5425
+Wire Wire Line
+	4075 5425 4750 5425
 $EndSCHEMATC

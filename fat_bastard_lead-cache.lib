@@ -122,34 +122,6 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Fat-Bastard-rescue_B+-a-wai
-#
-DEF Fat-Bastard-rescue_B+-a-wai #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Fat-Bastard-rescue_B+-a-wai" 0 150 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X B+ 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Fat-Bastard-rescue_C+-a-wai
-#
-DEF Fat-Bastard-rescue_C+-a-wai #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Fat-Bastard-rescue_C+-a-wai" 0 150 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X C+ 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # Valve_ECC83
 #
 DEF Valve_ECC83 U 0 0 Y Y 3 L N
@@ -193,6 +165,34 @@ X K 3 -100 -400 100 U 50 50 2 1 B
 X F1 4 -100 -450 200 U 50 50 3 1 W
 X F1 5 100 -450 200 U 50 50 3 1 W
 X F2 9 0 -450 200 U 50 50 3 1 W
+ENDDRAW
+ENDDEF
+#
+# fat_bastard_lead-rescue_B+-a-wai
+#
+DEF fat_bastard_lead-rescue_B+-a-wai #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "fat_bastard_lead-rescue_B+-a-wai" 0 150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X B+ 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# fat_bastard_lead-rescue_C+-a-wai
+#
+DEF fat_bastard_lead-rescue_C+-a-wai #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "fat_bastard_lead-rescue_C+-a-wai" 0 150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X C+ 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
