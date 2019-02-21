@@ -102,7 +102,7 @@ AR Path="/5C636CD5/5C72CCDA" Ref="R?"  Part="1"
 AR Path="/5C728193/5C72CCDA" Ref="R?"  Part="1" 
 F 0 "R2" H 3770 4572 50  0000 L CNN
 F 1 "510k" H 3770 4479 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3630 4525 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3630 4525 50  0001 C CNN
 F 3 "~" H 3700 4525 50  0001 C CNN
 	1    3700 4525
 	1    0    0    -1  
@@ -117,7 +117,7 @@ AR Path="/5C636CD5/5C72CCE1" Ref="C?"  Part="1"
 AR Path="/5C728193/5C72CCE1" Ref="C?"  Part="1" 
 F 0 "C2" V 4275 4225 50  0000 C CNN
 F 1 "300p" V 4175 4225 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 4088 4075 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L10.0mm_W5.0mm_P5.00mm_P7.50mm" H 4088 4075 50  0001 C CNN
 F 3 "~" H 4050 4225 50  0001 C CNN
 	1    4050 4225
 	0    -1   -1   0   
@@ -132,7 +132,7 @@ AR Path="/5C636CD5/5C72CCE8" Ref="C?"  Part="1"
 AR Path="/5C728193/5C72CCE8" Ref="C?"  Part="1" 
 F 0 "C1" H 3585 4878 50  0000 R CNN
 F 1 "1n" H 3585 4971 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3738 4775 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 3738 4775 50  0001 C CNN
 F 3 "~" H 3700 4925 50  0001 C CNN
 	1    3700 4925
 	-1   0    0    1   
@@ -149,7 +149,7 @@ AR Path="/5C636CD5/5C72CCF0" Ref="R?"  Part="1"
 AR Path="/5C728193/5C72CCF0" Ref="R?"  Part="1" 
 F 0 "R3" V 4925 4225 50  0000 C CNN
 F 1 "1M" V 4825 4225 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4630 4225 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 4630 4225 50  0001 C CNN
 F 3 "~" H 4700 4225 50  0001 C CNN
 	1    4700 4225
 	0    -1   -1   0   
@@ -198,7 +198,7 @@ AR Path="/5C72CD2A" Ref="R1"  Part="1"
 AR Path="/5C728193/5C72CD2A" Ref="R?"  Part="1" 
 F 0 "R1" H 1845 1897 50  0000 L CNN
 F 1 "1M" H 1845 1804 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1705 1850 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 1705 1850 50  0001 C CNN
 F 3 "~" H 1775 1850 50  0001 C CNN
 	1    1775 1850
 	1    0    0    -1  
@@ -282,7 +282,7 @@ AR Path="/5C636CD5/5C64712A" Ref="R?"  Part="1"
 AR Path="/5C728193/5C64712A" Ref="R?"  Part="1" 
 F 0 "R4" H 3995 2047 50  0000 L CNN
 F 1 "6.8k" H 3995 1954 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3855 2000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3855 2000 50  0001 C CNN
 F 3 "~" H 3925 2000 50  0001 C CNN
 	1    3925 2000
 	1    0    0    -1  
@@ -297,7 +297,7 @@ AR Path="/5C636CD5/5C647130" Ref="C?"  Part="1"
 AR Path="/5C728193/5C647130" Ref="C?"  Part="1" 
 F 0 "C4" V 4500 1700 50  0000 C CNN
 F 1 "22n" V 4400 1700 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 4313 1550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4313 1550 50  0001 C CNN
 F 3 "~" H 4275 1700 50  0001 C CNN
 	1    4275 1700
 	0    -1   -1   0   
@@ -312,7 +312,7 @@ AR Path="/5C636CD5/5C647136" Ref="C?"  Part="1"
 AR Path="/5C728193/5C647136" Ref="C?"  Part="1" 
 F 0 "C3" H 3810 2353 50  0000 R CNN
 F 1 "100n" H 3810 2446 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3963 2250 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 3963 2250 50  0001 C CNN
 F 3 "~" H 3925 2400 50  0001 C CNN
 	1    3925 2400
 	-1   0    0    1   
@@ -327,7 +327,7 @@ AR Path="/5C636CD5/5C64713D" Ref="R?"  Part="1"
 AR Path="/5C728193/5C64713D" Ref="R?"  Part="1" 
 F 0 "R5" V 5150 1700 50  0000 C CNN
 F 1 "10k" V 5050 1700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4855 1700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 4855 1700 50  0001 C CNN
 F 3 "~" H 4925 1700 50  0001 C CNN
 	1    4925 1700
 	0    -1   -1   0   
@@ -427,7 +427,7 @@ AR Path="/5C636CD5/5C668A4E" Ref="C?"  Part="1"
 AR Path="/5C728193/5C668A4E" Ref="C?"  Part="1" 
 F 0 "C6" H 1260 3703 50  0000 R CNN
 F 1 "500p" H 1260 3796 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 1413 3600 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L10.0mm_W5.0mm_P5.00mm_P7.50mm" H 1413 3600 50  0001 C CNN
 F 3 "~" H 1375 3750 50  0001 C CNN
 	1    1375 3750
 	-1   0    0    1   
@@ -479,7 +479,7 @@ AR Path="/5C636CD5/5C682FA8" Ref="C?"  Part="1"
 AR Path="/5C728193/5C682FA8" Ref="C?"  Part="1" 
 F 0 "C14" H 8635 3328 50  0000 R CNN
 F 1 "100n" H 8635 3421 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 8788 3225 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 8788 3225 50  0001 C CNN
 F 3 "~" H 8750 3375 50  0001 C CNN
 	1    8750 3375
 	0    1    1    0   
@@ -531,7 +531,7 @@ AR Path="/5C636CD5/5C6938BA" Ref="R?"  Part="1"
 AR Path="/5C728193/5C6938BA" Ref="R?"  Part="1" 
 F 0 "R16" H 9820 3972 50  0000 L CNN
 F 1 "100k" H 9820 3879 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9680 3925 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9680 3925 50  0001 C CNN
 F 3 "~" H 9750 3925 50  0001 C CNN
 	1    9750 3925
 	1    0    0    -1  
@@ -578,7 +578,7 @@ U 1 1 5C6CA817
 P 7450 2325
 F 0 "D2" H 7450 2544 50  0000 C CNN
 F 1 "1N4007" H 7450 2451 50  0000 C CNN
-F 2 "" H 7450 2325 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 7450 2325 50  0001 C CNN
 F 3 "~" H 7450 2325 50  0001 C CNN
 	1    7450 2325
 	1    0    0    -1  
@@ -619,7 +619,7 @@ AR Path="/5C636CD5/5C6D47CC" Ref="C?"  Part="1"
 AR Path="/5C728193/5C6D47CC" Ref="C?"  Part="1" 
 F 0 "C9" H 2960 1303 50  0000 R CNN
 F 1 "100n" H 2960 1396 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3113 1200 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 3113 1200 50  0001 C CNN
 F 3 "~" H 3075 1350 50  0001 C CNN
 	1    3075 1350
 	0    1    1    0   
@@ -658,7 +658,7 @@ AR Path="/5C636CD5/5C6D47E9" Ref="R?"  Part="1"
 AR Path="/5C728193/5C6D47E9" Ref="R?"  Part="1" 
 F 0 "R6" H 2845 1847 50  0000 L CNN
 F 1 "2.2M" H 2845 1754 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2705 1800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 2705 1800 50  0001 C CNN
 F 3 "~" H 2775 1800 50  0001 C CNN
 	1    2775 1800
 	1    0    0    -1  
@@ -673,7 +673,7 @@ AR Path="/5C636CD5/5C6D47EF" Ref="C?"  Part="1"
 AR Path="/5C728193/5C6D47EF" Ref="C?"  Part="1" 
 F 0 "C8" H 2460 1553 50  0000 R CNN
 F 1 "100n" H 2460 1646 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 2613 1450 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 2613 1450 50  0001 C CNN
 F 3 "~" H 2575 1600 50  0001 C CNN
 	1    2575 1600
 	0    1    1    0   
@@ -718,7 +718,7 @@ U 1 1 5C73F894
 P 4775 3525
 F 0 "U1" H 4775 3895 50  0000 C CNN
 F 1 "OPA2134" H 4775 3802 50  0000 C CNN
-F 2 "" H 4775 3525 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 4775 3525 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa134.pdf" H 4775 3525 50  0001 C CNN
 	1    4775 3525
 	1    0    0    -1  
@@ -729,7 +729,7 @@ U 2 1 5C73F9A8
 P 5850 4175
 F 0 "U1" H 5850 4545 50  0000 C CNN
 F 1 "OPA2134" H 5850 4452 50  0000 C CNN
-F 2 "" H 5850 4175 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 5850 4175 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa134.pdf" H 5850 4175 50  0001 C CNN
 	2    5850 4175
 	1    0    0    -1  
@@ -740,7 +740,7 @@ U 3 1 5C73FA44
 P 1600 6825
 F 0 "U1" H 1559 6872 50  0000 L CNN
 F 1 "OPA2134" H 1559 6779 50  0000 L CNN
-F 2 "" H 1600 6825 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 1600 6825 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa134.pdf" H 1600 6825 50  0001 C CNN
 	3    1600 6825
 	1    0    0    -1  
@@ -755,7 +755,7 @@ AR Path="/5C636CD5/5C74012D" Ref="C?"  Part="1"
 AR Path="/5C728193/5C74012D" Ref="C?"  Part="1" 
 F 0 "C5" H 1110 6778 50  0000 R CNN
 F 1 "100n" H 1110 6871 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 1263 6675 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 1263 6675 50  0001 C CNN
 F 3 "~" H 1225 6825 50  0001 C CNN
 	1    1225 6825
 	1    0    0    -1  
@@ -786,7 +786,7 @@ AR Path="/5C636CD5/5C74E1E0" Ref="R?"  Part="1"
 AR Path="/5C728193/5C74E1E0" Ref="R?"  Part="1" 
 F 0 "R10" H 3795 3072 50  0000 L CNN
 F 1 "8.2k" H 3795 2979 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3655 3025 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3655 3025 50  0001 C CNN
 F 3 "~" H 3725 3025 50  0001 C CNN
 	1    3725 3025
 	-1   0    0    -1  
@@ -801,7 +801,7 @@ AR Path="/5C636CD5/5C74E3E2" Ref="C?"  Part="1"
 AR Path="/5C728193/5C74E3E2" Ref="C?"  Part="1" 
 F 0 "C12" H 3610 3378 50  0000 R CNN
 F 1 "100n" H 3610 3471 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3763 3275 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 3763 3275 50  0001 C CNN
 F 3 "~" H 3725 3425 50  0001 C CNN
 	1    3725 3425
 	1    0    0    1   
@@ -816,7 +816,7 @@ AR Path="/5C636CD5/5C74EE25" Ref="R?"  Part="1"
 AR Path="/5C728193/5C74EE25" Ref="R?"  Part="1" 
 F 0 "R7" H 3145 2647 50  0000 L CNN
 F 1 "1k" H 3145 2554 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3005 2600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3005 2600 50  0001 C CNN
 F 3 "~" H 3075 2600 50  0001 C CNN
 	1    3075 2600
 	-1   0    0    -1  
@@ -831,7 +831,7 @@ AR Path="/5C636CD5/5C74EF3D" Ref="R?"  Part="1"
 AR Path="/5C728193/5C74EF3D" Ref="R?"  Part="1" 
 F 0 "R9" H 3470 2397 50  0000 L CNN
 F 1 "10k" H 3470 2304 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3330 2350 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3330 2350 50  0001 C CNN
 F 3 "~" H 3400 2350 50  0001 C CNN
 	1    3400 2350
 	0    -1   1    0   
@@ -973,7 +973,7 @@ AR Path="/5C636CD5/5C7DA488" Ref="R?"  Part="1"
 AR Path="/5C728193/5C7DA488" Ref="R?"  Part="1" 
 F 0 "R13" H 5270 3872 50  0000 L CNN
 F 1 "470k" H 5270 3779 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5130 3825 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5130 3825 50  0001 C CNN
 F 3 "~" H 5200 3825 50  0001 C CNN
 	1    5200 3825
 	1    0    0    -1  
@@ -988,7 +988,7 @@ AR Path="/5C636CD5/5C7DA71C" Ref="R?"  Part="1"
 AR Path="/5C728193/5C7DA71C" Ref="R?"  Part="1" 
 F 0 "R14" H 5270 4372 50  0000 L CNN
 F 1 "470k" H 5270 4279 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5130 4325 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5130 4325 50  0001 C CNN
 F 3 "~" H 5200 4325 50  0001 C CNN
 	1    5200 4325
 	1    0    0    -1  
@@ -1060,7 +1060,7 @@ AR Path="/5C636CD5/5C86F332" Ref="R?"  Part="1"
 AR Path="/5C728193/5C86F332" Ref="R?"  Part="1" 
 F 0 "R11" H 3870 6647 50  0000 L CNN
 F 1 "10k" H 3870 6554 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3730 6600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3730 6600 50  0001 C CNN
 F 3 "~" H 3800 6600 50  0001 C CNN
 	1    3800 6600
 	-1   0    0    -1  
@@ -1075,7 +1075,7 @@ AR Path="/5C636CD5/5C86F574" Ref="R?"  Part="1"
 AR Path="/5C728193/5C86F574" Ref="R?"  Part="1" 
 F 0 "R12" H 3870 7047 50  0000 L CNN
 F 1 "10k" H 3870 6954 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3730 7000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3730 7000 50  0001 C CNN
 F 3 "~" H 3800 7000 50  0001 C CNN
 	1    3800 7000
 	-1   0    0    -1  
@@ -1086,7 +1086,7 @@ U 1 1 5C86F77C
 P 3425 7000
 F 0 "C10" H 3675 7050 50  0000 R CNN
 F 1 "100µ" H 3725 6950 50  0000 R CNN
-F 2 "" H 3463 6850 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 3463 6850 50  0001 C CNN
 F 3 "~" H 3425 7000 50  0001 C CNN
 	1    3425 7000
 	-1   0    0    -1  
@@ -1097,7 +1097,7 @@ U 1 1 5C88F950
 P 2425 6750
 F 0 "C7" H 2306 6797 50  0000 R CNN
 F 1 "1000µ" H 2306 6704 50  0000 R CNN
-F 2 "" H 2463 6600 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 2463 6600 50  0001 C CNN
 F 3 "~" H 2425 6750 50  0001 C CNN
 	1    2425 6750
 	-1   0    0    -1  
@@ -1216,7 +1216,7 @@ AR Path="/5C636CD5/5C91CA09" Ref="R?"  Part="1"
 AR Path="/5C728193/5C91CA09" Ref="R?"  Part="1" 
 F 0 "R8" V 3325 6400 50  0000 C CNN
 F 1 "10R" V 3225 6400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3030 6400 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3030 6400 50  0001 C CNN
 F 3 "~" H 3100 6400 50  0001 C CNN
 	1    3100 6400
 	0    -1   -1   0   
@@ -1276,7 +1276,7 @@ U 1 1 5C973203
 P 4050 6800
 F 0 "D1" V 4003 6879 50  0000 L CNN
 F 1 "1N4007" V 4096 6879 50  0000 L CNN
-F 2 "" H 4050 6800 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 4050 6800 50  0001 C CNN
 F 3 "~" H 4050 6800 50  0001 C CNN
 	1    4050 6800
 	0    1    1    0   
@@ -1333,7 +1333,7 @@ U 1 1 5C9C8521
 P 8025 2225
 F 0 "D3" V 8064 2304 50  0000 L CNN
 F 1 "LED" V 7971 2304 50  0000 L CNN
-F 2 "" H 8025 2225 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z6.0mm" H 8025 2225 50  0001 C CNN
 F 3 "~" H 8025 2225 50  0001 C CNN
 	1    8025 2225
 	0    1    -1   0   
@@ -1348,7 +1348,7 @@ AR Path="/5C636CD5/5C9C86D9" Ref="R?"  Part="1"
 AR Path="/5C728193/5C9C86D9" Ref="R?"  Part="1" 
 F 0 "R15" H 8095 2622 50  0000 L CNN
 F 1 "3.3k" H 8095 2529 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7955 2575 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 7955 2575 50  0001 C CNN
 F 3 "~" H 8025 2575 50  0001 C CNN
 	1    8025 2575
 	1    0    0    -1  
@@ -1380,7 +1380,7 @@ AR Path="/5C636CD5/5CA7B33C" Ref="C?"  Part="1"
 AR Path="/5C728193/5CA7B33C" Ref="C?"  Part="1" 
 F 0 "C11" H 3360 4878 50  0000 R CNN
 F 1 "500p" H 3360 4971 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3513 4775 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L10.0mm_W5.0mm_P5.00mm_P7.50mm" H 3513 4775 50  0001 C CNN
 F 3 "~" H 3475 4925 50  0001 C CNN
 	1    3475 4925
 	1    0    0    1   
@@ -1438,7 +1438,7 @@ U 1 1 5CB37EC1
 P 9050 3725
 F 0 "U3" H 9175 3975 50  0000 L CNN
 F 1 "OPA134" H 9075 3875 50  0000 L CNN
-F 2 "" H 9100 3775 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 9100 3775 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa134.pdf" H 9100 3875 50  0001 C CNN
 	1    9050 3725
 	1    0    0    -1  
@@ -1449,9 +1449,40 @@ U 1 1 5CB38609
 P 3375 1700
 F 0 "U2" H 3500 1950 50  0000 L CNN
 F 1 "OPA134" H 3400 1850 50  0000 L CNN
-F 2 "" H 3425 1750 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 3425 1750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa134.pdf" H 3425 1850 50  0001 C CNN
 	1    3375 1700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R17
+U 1 1 5C672F27
+P 8350 3825
+AR Path="/5C672F27" Ref="R17"  Part="1" 
+AR Path="/5C6397B0/5C672F27" Ref="R?"  Part="1" 
+AR Path="/5C636CD5/5C672F27" Ref="R?"  Part="1" 
+AR Path="/5C728193/5C672F27" Ref="R?"  Part="1" 
+F 0 "R17" H 8420 3872 50  0000 L CNN
+F 1 "1M" H 8420 3779 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 8280 3825 50  0001 C CNN
+F 3 "~" H 8350 3825 50  0001 C CNN
+	1    8350 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR027
+U 1 1 5C673210
+P 8350 4025
+F 0 "#PWR027" H 8350 3775 50  0001 C CNN
+F 1 "GNDS" H 8355 3850 50  0000 C CNN
+F 2 "" H 8350 4025 50  0001 C CNN
+F 3 "" H 8350 4025 50  0001 C CNN
+	1    8350 4025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3975 8350 4025
+Wire Wire Line
+	8350 3675 8350 3625
+Connection ~ 8350 3625
 $EndSCHEMATC
