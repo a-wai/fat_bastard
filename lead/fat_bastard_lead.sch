@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Fat Bastard"
-Date "2019-02-15"
-Rev "2"
+Date "2019-02-22"
+Rev "3"
 Comp "Arnaud Ferraris (A-wai Amplification)"
 Comment1 "Licensed under CERN OHL v.1.2"
 Comment2 ""
@@ -22,7 +22,7 @@ AR Path="/5C63A589" Ref="U1"  Part="2"
 AR Path="/5C6397B0/5C63A589" Ref="U?"  Part="2" 
 F 0 "U1" H 4200 4475 50  0000 L CNN
 F 1 "ECC83" H 4200 4375 50  0000 L CNN
-F 2 "Valve:Valve_ECC-83-2" H 4245 4275 50  0001 C CNN
+F 2 "ProjectLib:Valve_Noval-B9A_Belton-VT9-PT_Socket" H 4245 4275 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 3975 4675 50  0001 C CNN
 	2    3975 4675
 	1    0    0    -1  
@@ -35,7 +35,7 @@ AR Path="/5C63A590" Ref="U2"  Part="2"
 AR Path="/5C6397B0/5C63A590" Ref="U?"  Part="2" 
 F 0 "U2" H 6878 4722 50  0000 L CNN
 F 1 "ECC83" H 6878 4629 50  0000 L CNN
-F 2 "Valve:Valve_ECC-83-2" H 6920 4275 50  0001 C CNN
+F 2 "ProjectLib:Valve_Noval-B9A_Belton-VT9-PT_Socket" H 6920 4275 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 6650 4675 50  0001 C CNN
 	2    6650 4675
 	1    0    0    -1  
@@ -48,7 +48,7 @@ AR Path="/5C63A597" Ref="U1"  Part="1"
 AR Path="/5C6397B0/5C63A597" Ref="U?"  Part="1" 
 F 0 "U1" H 5703 4722 50  0000 L CNN
 F 1 "ECC83" H 5703 4629 50  0000 L CNN
-F 2 "Valve:Valve_ECC-83-2" H 5745 4275 50  0001 C CNN
+F 2 "ProjectLib:Valve_Noval-B9A_Belton-VT9-PT_Socket" H 5745 4275 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 5475 4675 50  0001 C CNN
 	1    5475 4675
 	1    0    0    -1  
@@ -61,7 +61,7 @@ AR Path="/5C63A59E" Ref="U2"  Part="1"
 AR Path="/5C6397B0/5C63A59E" Ref="U?"  Part="1" 
 F 0 "U2" H 8178 4722 50  0000 L CNN
 F 1 "ECC83" H 8178 4629 50  0000 L CNN
-F 2 "Valve:Valve_ECC-83-2" H 8220 4275 50  0001 C CNN
+F 2 "ProjectLib:Valve_Noval-B9A_Belton-VT9-PT_Socket" H 8220 4275 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 7950 4675 50  0001 C CNN
 	1    7950 4675
 	1    0    0    -1  
@@ -74,7 +74,7 @@ AR Path="/5C63A5BA" Ref="C2"  Part="1"
 AR Path="/5C6397B0/5C63A5BA" Ref="C?"  Part="1" 
 F 0 "C2" V 4175 4225 50  0000 C CNN
 F 1 "500p" V 4475 4225 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L10.0mm_W5.0mm_P5.00mm_P7.50mm" H 4363 4075 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P5.00mm" H 4363 4075 50  0001 C CNN
 F 3 "~" H 4325 4225 50  0001 C CNN
 	1    4325 4225
 	0    1    1    0   
@@ -542,7 +542,6 @@ Wire Wire Line
 	5475 3825 5475 3875
 Wire Wire Line
 	6650 3825 6650 3875
-Connection ~ 6650 3875
 Wire Wire Line
 	7950 3825 7950 3875
 $Comp
@@ -619,7 +618,7 @@ AR Path="/5C63DCEE" Ref="U1"  Part="3"
 AR Path="/5C6397B0/5C63DCEE" Ref="U?"  Part="3" 
 F 0 "U1" H 4050 1375 50  0000 L CNN
 F 1 "ECC83" H 4025 1275 50  0000 L CNN
-F 2 "Valve:Valve_ECC-83-2" H 4070 975 50  0001 C CNN
+F 2 "ProjectLib:Valve_Noval-B9A_Belton-VT9-PT_Socket" H 4070 975 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 3800 1375 50  0001 C CNN
 	3    3800 1375
 	-1   0    0    -1  
@@ -632,7 +631,7 @@ AR Path="/5C63DE52" Ref="U2"  Part="3"
 AR Path="/5C6397B0/5C63DE52" Ref="U?"  Part="3" 
 F 0 "U2" H 4125 1375 50  0000 L CNN
 F 1 "ECC83" H 4050 1275 50  0000 L CNN
-F 2 "Valve:Valve_ECC-83-2" H 4795 975 50  0001 C CNN
+F 2 "ProjectLib:Valve_Noval-B9A_Belton-VT9-PT_Socket" H 4795 975 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 4525 1375 50  0001 C CNN
 	3    4525 1375
 	-1   0    0    -1  
@@ -924,4 +923,25 @@ Wire Wire Line
 	4750 4775 4750 5425
 Wire Wire Line
 	4075 5425 4750 5425
+Connection ~ 6650 3875
+$Comp
+L Device:C C13
+U 1 1 5C70909A
+P 7725 4025
+AR Path="/5C70909A" Ref="C13"  Part="1" 
+AR Path="/5C6397B0/5C70909A" Ref="C?"  Part="1" 
+F 0 "C13" H 7475 4075 50  0000 L CNN
+F 1 "500p" H 7450 3975 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P5.00mm" H 7763 3875 50  0001 C CNN
+F 3 "~" H 7725 4025 50  0001 C CNN
+	1    7725 4025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7725 3875 7950 3875
+Connection ~ 7950 3875
+Wire Wire Line
+	7725 4175 7725 4225
+Wire Wire Line
+	7725 4225 7950 4225
 $EndSCHEMATC
