@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /mnt/data/Git/fat_bastard/lead/fat_bastard_lead.sch)
-    (date "ven. 22 févr. 2019 16:44:49 CET")
+    (date "ven. 22 févr. 2019 16:54:31 CET")
     (tool "Eeschema 5.0.2+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -31,7 +31,7 @@
       (tstamp 5C63A590))
     (comp (ref C2)
       (value 500p)
-      (footprint Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P5.00mm)
+      (footprint Capacitor_THT:C_Rect_L10.0mm_W5.0mm_P5.00mm_P7.50mm)
       (datasheet ~)
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))

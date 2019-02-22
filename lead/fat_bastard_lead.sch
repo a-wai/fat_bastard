@@ -74,7 +74,7 @@ AR Path="/5C63A5BA" Ref="C2"  Part="1"
 AR Path="/5C6397B0/5C63A5BA" Ref="C?"  Part="1" 
 F 0 "C2" V 4175 4225 50  0000 C CNN
 F 1 "500p" V 4475 4225 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P5.00mm" H 4363 4075 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L10.0mm_W5.0mm_P5.00mm_P7.50mm" H 4363 4075 50  0001 C CNN
 F 3 "~" H 4325 4225 50  0001 C CNN
 	1    4325 4225
 	0    1    1    0   
