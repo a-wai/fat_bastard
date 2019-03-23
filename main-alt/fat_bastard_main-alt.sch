@@ -51,7 +51,7 @@ F 1 "TO_LD_GAIN" H 2390 4955 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2310 5005 50  0001 C CNN
 F 3 "~" H 2310 5005 50  0001 C CNN
 	1    2310 5005
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_POT RV1
@@ -64,7 +64,7 @@ F 1 "500k-A" H 1040 4959 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal" H 1110 5005 50  0001 C CNN
 F 3 "~" H 1110 5005 50  0001 C CNN
 	1    1110 5005
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_POT RV2
@@ -77,7 +77,7 @@ F 1 "1M-B" H 3521 3684 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal" H 3590 3730 50  0001 C CNN
 F 3 "~" H 3590 3730 50  0001 C CNN
 	1    3590 3730
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_POT RV3
@@ -90,7 +90,7 @@ F 1 "100k-A" H 6480 4054 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal" H 6550 4100 50  0001 C CNN
 F 3 "~" H 6550 4100 50  0001 C CNN
 	1    6550 4100
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R2
@@ -257,7 +257,7 @@ F 1 "10k-B" H 4556 1954 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal" H 4625 2000 50  0001 C CNN
 F 3 "~" H 4625 2000 50  0001 C CNN
 	1    4625 2000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_POT RV6
@@ -270,7 +270,7 @@ F 1 "100k-A" H 4955 2254 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal" H 5025 2300 50  0001 C CNN
 F 3 "~" H 5025 2300 50  0001 C CNN
 	1    5025 2300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R4
@@ -415,7 +415,7 @@ F 1 "1M-A" H 5050 4275 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal" H 5125 4325 50  0001 C CNN
 F 3 "~" H 5125 4325 50  0001 C CNN
 	1    5125 4325
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C6
@@ -560,9 +560,9 @@ Wire Wire Line
 Wire Wire Line
 	8750 3825 8750 4000
 Connection ~ 9400 3725
-Text Label 6850 3525 0    50   ~ 0
-LD_SIG
 Text Label 8075 3625 2    50   ~ 0
+LD_SIG
+Text Label 6850 3525 0    50   ~ 0
 LD_GND
 Wire Wire Line
 	8075 3625 7750 3625
@@ -770,7 +770,7 @@ AR Path="/5C6397B0/5C74E1E0" Ref="R?"  Part="1"
 AR Path="/5C636CD5/5C74E1E0" Ref="R?"  Part="1" 
 AR Path="/5C728193/5C74E1E0" Ref="R?"  Part="1" 
 F 0 "R10" H 4780 3972 50  0000 L CNN
-F 1 "82k" H 4780 3879 50  0000 L CNN
+F 1 "33k" H 4780 3879 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 4640 3925 50  0001 C CNN
 F 3 "~" H 4710 3925 50  0001 C CNN
 	1    4710 3925
@@ -785,7 +785,7 @@ AR Path="/5C6397B0/5C74E3E2" Ref="C?"  Part="1"
 AR Path="/5C636CD5/5C74E3E2" Ref="C?"  Part="1" 
 AR Path="/5C728193/5C74E3E2" Ref="C?"  Part="1" 
 F 0 "C12" H 4595 4278 50  0000 R CNN
-F 1 "4.7n" H 4595 4371 50  0000 R CNN
+F 1 "10n" H 4595 4371 50  0000 R CNN
 F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4748 4175 50  0001 C CNN
 F 3 "~" H 4710 4325 50  0001 C CNN
 	1    4710 4325
@@ -815,7 +815,7 @@ AR Path="/5C6397B0/5C74EF3D" Ref="R?"  Part="1"
 AR Path="/5C636CD5/5C74EF3D" Ref="R?"  Part="1" 
 AR Path="/5C728193/5C74EF3D" Ref="R?"  Part="1" 
 F 0 "R9" H 3470 2397 50  0000 L CNN
-F 1 "3.9k" H 3470 2304 50  0000 L CNN
+F 1 "2.2k" H 3470 2304 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3330 2350 50  0001 C CNN
 F 3 "~" H 3400 2350 50  0001 C CNN
 	1    3400 2350
@@ -951,7 +951,7 @@ AR Path="/5C6397B0/5C7DA71C" Ref="R?"  Part="1"
 AR Path="/5C636CD5/5C7DA71C" Ref="R?"  Part="1" 
 AR Path="/5C728193/5C7DA71C" Ref="R?"  Part="1" 
 F 0 "R14" H 4035 3777 50  0000 L CNN
-F 1 "910k" H 4035 3684 50  0000 L CNN
+F 1 "1M" H 4035 3684 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3895 3730 50  0001 C CNN
 F 3 "~" H 3965 3730 50  0001 C CNN
 	1    3965 3730
@@ -1377,7 +1377,7 @@ AR Path="/5C6397B0/5C7221A2" Ref="R?"  Part="1"
 AR Path="/5C636CD5/5C7221A2" Ref="R?"  Part="1" 
 AR Path="/5C728193/5C7221A2" Ref="R?"  Part="1" 
 F 0 "R13" H 4210 4002 50  0000 L CNN
-F 1 "100k" H 4210 3909 50  0000 L CNN
+F 1 "47k" H 4210 3909 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 4070 3955 50  0001 C CNN
 F 3 "~" H 4140 3955 50  0001 C CNN
 	1    4140 3955
@@ -1428,7 +1428,7 @@ AR Path="/5C6397B0/5C779001" Ref="R?"  Part="1"
 AR Path="/5C636CD5/5C779001" Ref="R?"  Part="1" 
 AR Path="/5C728193/5C779001" Ref="R?"  Part="1" 
 F 0 "R20" H 9145 4372 50  0000 L CNN
-F 1 "4.7k" H 9145 4279 50  0000 L CNN
+F 1 "3.3k" H 9145 4279 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9005 4325 50  0001 C CNN
 F 3 "~" H 9075 4325 50  0001 C CNN
 	1    9075 4325
@@ -1522,31 +1522,10 @@ Connection ~ 4140 3730
 Wire Wire Line
 	4710 3730 5410 3730
 Connection ~ 4710 3730
-$Comp
-L Jumper:SolderJumper_2_Open JP1
-U 1 1 5C97A0C4
-P 9080 4610
-F 0 "JP1" H 9080 4490 50  0000 C CNN
-F 1 "Jumper" H 9080 4420 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9080 4610 50  0001 C CNN
-F 3 "~" H 9080 4610 50  0001 C CNN
-	1    9080 4610
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9230 4610 9400 4610
 Wire Wire Line
 	9400 3725 9400 4325
-Connection ~ 9400 4325
-Wire Wire Line
-	9400 4325 9400 4610
-Wire Wire Line
-	8750 4610 8930 4610
 Wire Wire Line
 	8750 4000 8750 4325
-Connection ~ 8750 4325
-Wire Wire Line
-	8750 4325 8750 4610
 Wire Wire Line
 	5410 3930 5410 4130
 Wire Wire Line
