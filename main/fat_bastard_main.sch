@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Fat Bastard"
-Date "2019-04-15"
-Rev "3"
+Date "2019-05-17"
+Rev "4"
 Comp "Arnaud Ferraris (A-wai Amplification)"
 Comment1 "Licensed under CERN OHL v.1.2"
 Comment2 ""
@@ -516,7 +516,7 @@ AR Path="/5C6397B0/5C668A4E" Ref="C?"  Part="1"
 AR Path="/5C636CD5/5C668A4E" Ref="C?"  Part="1" 
 AR Path="/5C728193/5C668A4E" Ref="C?"  Part="1" 
 F 0 "C6" H 1215 5148 50  0000 R CNN
-F 1 "500p" H 1215 5241 50  0000 R CNN
+F 1 "not fitted" H 1215 5241 50  0000 R CNN
 F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm" H 1368 5045 50  0001 C CNN
 F 3 "~" H 1330 5195 50  0001 C CNN
 F 4 "-" H 0   0   50  0001 C CNN "MFR"
@@ -810,7 +810,7 @@ AR Path="/5C6397B0/5C74E3E2" Ref="C?"  Part="1"
 AR Path="/5C636CD5/5C74E3E2" Ref="C?"  Part="1" 
 AR Path="/5C728193/5C74E3E2" Ref="C?"  Part="1" 
 F 0 "C12" H 4595 3878 50  0000 R CNN
-F 1 "10n" H 4595 3971 50  0000 R CNN
+F 1 "15n" H 4595 3971 50  0000 R CNN
 F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4748 3775 50  0001 C CNN
 F 3 "~" H 4710 3925 50  0001 C CNN
 F 4 "WIMA" H 50  1800 50  0001 C CNN "MFR"
@@ -1429,7 +1429,7 @@ AR Path="/5C6397B0/5C99F965" Ref="C?"  Part="1"
 AR Path="/5C636CD5/5C99F965" Ref="C?"  Part="1" 
 AR Path="/5C728193/5C99F965" Ref="C?"  Part="1" 
 F 0 "C11" H 4895 1703 50  0000 R CNN
-F 1 "100p" H 4895 1796 50  0000 R CNN
+F 1 "not fitted" H 4895 1796 50  0000 R CNN
 F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm" H 5048 1600 50  0001 C CNN
 F 3 "~" H 5010 1750 50  0001 C CNN
 F 4 "-" H 0   -1800 50  0001 C CNN "MFR"
@@ -1912,4 +1912,14 @@ NoConn ~ 10450 3425
 Connection ~ 5010 1900
 Wire Wire Line
 	5010 1900 6490 1900
+Text Notes 9310 5945 0    50   ~ 0
+For guitar, use the following\nalternate component values:\nC1    1n\nC4    10n\nR5    18k\nR10   68k\nC11   1n\nC12   4.7n
+Wire Notes Line
+	9285 5265 10455 5265
+Wire Notes Line
+	10455 5265 10455 5980
+Wire Notes Line
+	10455 5980 9275 5980
+Wire Notes Line
+	9275 5980 9275 5265
 $EndSCHEMATC

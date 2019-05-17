@@ -1,14 +1,14 @@
 (export (version D)
   (design
     (source /mnt/data/Git/fat_bastard/main/fat_bastard_main.sch)
-    (date "lun. 15 avril 2019 14:12:25 CEST")
+    (date "ven. 17 mai 2019 15:30:46 CEST")
     (tool "Eeschema 5.0.2+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Fat Bastard")
         (company "Arnaud Ferraris (A-wai Amplification)")
-        (rev 3)
-        (date 2019-04-15)
+        (rev 4)
+        (date 2019-05-17)
         (source fat_bastard_main.sch)
         (comment (number 1) (value "Licensed under CERN OHL v.1.2"))
         (comment (number 2) (value ""))
@@ -315,7 +315,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5C660A0E))
     (comp (ref C6)
-      (value 500p)
+      (value "not fitted")
       (footprint Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm)
       (datasheet ~)
       (fields
@@ -458,7 +458,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5C74E1E0))
     (comp (ref C12)
-      (value 10n)
+      (value 15n)
       (footprint Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2)
       (datasheet ~)
       (fields
@@ -744,7 +744,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5C9E9A06))
     (comp (ref C11)
-      (value 100p)
+      (value "not fitted")
       (footprint Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm)
       (datasheet ~)
       (fields

@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Fat Bastard"
-Date "2019-02-22"
-Rev "3"
+Date "2019-05-17"
+Rev "4"
 Comp "Arnaud Ferraris (A-wai Amplification)"
 Comment1 "Licensed under CERN OHL v.1.2"
 Comment2 ""
@@ -74,7 +74,7 @@ AR Path="/5C63A5BA" Ref="C2"  Part="1"
 AR Path="/5C6397B0/5C63A5BA" Ref="C?"  Part="1" 
 F 0 "C2" V 4175 4225 50  0000 C CNN
 F 1 "500p" V 4475 4225 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L10.0mm_W5.0mm_P5.00mm_P7.50mm" H 4363 4075 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P5.00mm" H 4363 4075 50  0001 C CNN
 F 3 "~" H 4325 4225 50  0001 C CNN
 	1    4325 4225
 	0    1    1    0   
@@ -98,8 +98,8 @@ U 1 1 5C63A5EA
 P 3975 4025
 AR Path="/5C63A5EA" Ref="R3"  Part="1" 
 AR Path="/5C6397B0/5C63A5EA" Ref="R?"  Part="1" 
-F 0 "R3" H 4045 4072 50  0000 L CNN
-F 1 "220k" H 4045 3979 50  0000 L CNN
+F 0 "R3" H 3760 4060 50  0000 L CNN
+F 1 "220k" H 3720 3980 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3905 4025 50  0001 C CNN
 F 3 "~" H 3975 4025 50  0001 C CNN
 	1    3975 4025
@@ -282,7 +282,7 @@ AR Path="/5C63A64C" Ref="C5"  Part="1"
 AR Path="/5C6397B0/5C63A64C" Ref="C?"  Part="1" 
 F 0 "C5" H 6250 4075 50  0000 L CNN
 F 1 "1n" H 6250 3975 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_MKS4" H 6488 3875 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 6488 3875 50  0001 C CNN
 F 3 "~" H 6450 4025 50  0001 C CNN
 	1    6450 4025
 	1    0    0    -1  
@@ -819,7 +819,7 @@ Wire Wire Line
 	3050 4675 3325 4675
 Wire Wire Line
 	4700 4675 4825 4675
-Text Label 4175 4225 2    50   ~ 0
+Text Label 4160 4225 2    50   ~ 0
 HT1
 Text Label 5675 4225 2    50   ~ 0
 HT2
@@ -931,7 +931,7 @@ P 7725 4025
 AR Path="/5C70909A" Ref="C13"  Part="1" 
 AR Path="/5C6397B0/5C70909A" Ref="C?"  Part="1" 
 F 0 "C13" H 7475 4075 50  0000 L CNN
-F 1 "500p" H 7450 3975 50  0000 L CNN
+F 1 "360p" H 7450 3975 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P5.00mm" H 7763 3875 50  0001 C CNN
 F 3 "~" H 7725 4025 50  0001 C CNN
 	1    7725 4025
@@ -944,4 +944,14 @@ Wire Wire Line
 	7725 4175 7725 4225
 Wire Wire Line
 	7725 4225 7950 4225
+Text Notes 9670 5960 0    50   ~ 0
+For guitar, use the following\nalternate component values:\nC2    22n\nR9    39k\nC13   not fitted
+Wire Notes Line
+	9650 5520 10810 5520
+Wire Notes Line
+	10810 5520 10810 5990
+Wire Notes Line
+	10810 5990 9640 5990
+Wire Notes Line
+	9640 5990 9640 5520
 $EndSCHEMATC
